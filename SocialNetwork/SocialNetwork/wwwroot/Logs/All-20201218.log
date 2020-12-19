@@ -1,0 +1,1305 @@
+2020-12-18T15:46:55.3070130+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:46:56.3912376+03:00  [INF] Executed DbCommand ("59"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:46:56.4142124+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-18T15:46:56.4320321+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:46:56.6249505+03:00  [INF] Executed DbCommand ("48"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:46:56.8355890+03:00  [INF] Executed DbCommand ("51"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T15:46:56.9077422+03:00  [INF] Executed DbCommand ("43"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T15:46:56.9619120+03:00  [INF] Executed DbCommand ("46"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-18T15:46:57.4696907+03:00  [INF] Now listening on: "http://127.0.0.1:36224" (d826f4b8)
+2020-12-18T15:46:57.4942904+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-18T15:46:57.4943348+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-18T15:46:57.4943528+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-18T15:46:57.7146620+03:00 0HM53AC0OSEAM:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-18T15:46:57.7676604+03:00 0HM53AC0OSEAM:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-18T15:46:57.8005636+03:00 0HM53AC0OSEAM:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T15:46:57.8915447+03:00 0HM53AC0OSEAM:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-12-18T15:46:58.0027252+03:00 0HM53AC0OSEAM:00000001 [INF] Executed ViewResult - view "Index" executed in 110.3226ms. (f66409e9)
+2020-12-18T15:46:58.0029289+03:00 0HM53AC0OSEAM:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 202.1941ms (afa2e885)
+2020-12-18T15:46:58.0032384+03:00 0HM53AC0OSEAM:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-18T15:46:58.0169708+03:00 0HM53AC0OSEAO:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css   (ca22a1cb)
+2020-12-18T15:46:58.0169762+03:00 0HM53AC0OSEAN:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/font-awesome.css   (ca22a1cb)
+2020-12-18T15:46:58.0267260+03:00 0HM53AC0OSEAM:00000001 [INF] Request finished in 313.7014ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T15:46:58.0552651+03:00 0HM53AC0OSEAN:00000001 [INF] Sending file. Request path: '"/css/font-awesome.css"'. Physical path: '"C:\Users\Arter\ASP\SocialNetwork\SocialNetwork\wwwroot\css\font-awesome.css"' (27b0a520)
+2020-12-18T15:46:58.0559985+03:00 0HM53AC0OSEAN:00000001 [INF] Request finished in 39.0654ms 200 text/css (791a596a)
+2020-12-18T15:46:58.0890994+03:00 0HM53AC0OSEAM:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/style.css   (ca22a1cb)
+2020-12-18T15:46:58.1058874+03:00 0HM53AC0OSEAM:00000002 [INF] Sending file. Request path: '"/css/style.css"'. Physical path: '"C:\Users\Arter\ASP\SocialNetwork\SocialNetwork\wwwroot\css\style.css"' (27b0a520)
+2020-12-18T15:46:58.1059629+03:00 0HM53AC0OSEAM:00000002 [INF] Request finished in 16.8858ms 200 text/css (791a596a)
+2020-12-18T15:46:58.1136897+03:00 0HM53AC0OSEAO:00000001 [INF] Sending file. Request path: '"/css/bootstrap.css"'. Physical path: '"C:\Users\Arter\ASP\SocialNetwork\SocialNetwork\wwwroot\css\bootstrap.css"' (27b0a520)
+2020-12-18T15:46:58.1137615+03:00 0HM53AC0OSEAO:00000001 [INF] Request finished in 96.8515ms 200 text/css (791a596a)
+2020-12-18T15:46:58.1383564+03:00 0HM53AC0OSEAN:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/favicon.ico   (ca22a1cb)
+2020-12-18T15:46:58.1396514+03:00 0HM53AC0OSEAN:00000002 [INF] Request finished in 1.3228ms 404  (791a596a)
+2020-12-18T15:47:09.4327166+03:00 0HM53AC0OSEAM:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css.map   (ca22a1cb)
+2020-12-18T15:47:09.4358933+03:00 0HM53AC0OSEAM:00000003 [INF] Request finished in 3.3462ms 404  (791a596a)
+2020-12-18T15:47:19.3602938+03:00 0HM53AC0OSEAO:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T15:47:19.3612611+03:00 0HM53AC0OSEAO:00000002 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T15:47:19.3766851+03:00 0HM53AC0OSEAO:00000002 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T15:47:19.3961915+03:00 0HM53AC0OSEAO:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:47:19.5687553+03:00 0HM53AC0OSEAO:00000002 [INF] Executed DbCommand ("43"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:47:19.5695142+03:00 0HM53AC0OSEAO:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:47:19.7617255+03:00 0HM53AC0OSEAO:00000002 [INF] Executed DbCommand ("45"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:47:19.7677626+03:00 0HM53AC0OSEAO:00000002 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T15:47:19.8023369+03:00 0HM53AC0OSEAO:00000002 [INF] Executed ViewResult - view "Login" executed in 35.1803ms. (f66409e9)
+2020-12-18T15:47:19.8024093+03:00 0HM53AC0OSEAO:00000002 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 425.6669ms (afa2e885)
+2020-12-18T15:47:19.8024472+03:00 0HM53AC0OSEAO:00000002 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T15:47:19.8036173+03:00 0HM53AC0OSEAO:00000002 [INF] Request finished in 443.4585ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T15:47:19.8161121+03:00 0HM53AC0OSEAO:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/style.css   (ca22a1cb)
+2020-12-18T15:47:19.8161114+03:00 0HM53AC0OSEAM:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/font-awesome.css   (ca22a1cb)
+2020-12-18T15:47:19.8161117+03:00 0HM53AC0OSEAN:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/bootstrap.css   (ca22a1cb)
+2020-12-18T15:47:19.8181326+03:00 0HM53AC0OSEAO:00000003 [INF] Request finished in 2.1024ms 404  (791a596a)
+2020-12-18T15:47:19.8181340+03:00 0HM53AC0OSEAM:00000004 [INF] Request finished in 2.1027ms 404  (791a596a)
+2020-12-18T15:47:19.8181422+03:00 0HM53AC0OSEAN:00000003 [INF] Request finished in 2.1023ms 404  (791a596a)
+2020-12-18T15:53:11.8474474+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:53:12.6749993+03:00  [INF] Executed DbCommand ("51"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:53:12.6899041+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-18T15:53:12.6918328+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:53:12.8693269+03:00  [INF] Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:53:13.0327150+03:00  [INF] Executed DbCommand ("46"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T15:53:13.1021868+03:00  [INF] Executed DbCommand ("41"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T15:53:13.1533328+03:00  [INF] Executed DbCommand ("43"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-18T15:53:13.2427887+03:00  [INF] Now listening on: "http://127.0.0.1:40709" (d826f4b8)
+2020-12-18T15:53:13.2436769+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-18T15:53:13.2436995+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-18T15:53:13.2437145+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-18T15:53:13.3172212+03:00 0HM53AFGN7FE5:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-18T15:53:13.3395473+03:00 0HM53AFGN7FE5:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-18T15:53:13.3478659+03:00 0HM53AFGN7FE5:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T15:53:13.3899484+03:00 0HM53AFGN7FE5:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-12-18T15:53:13.4610868+03:00 0HM53AFGN7FE5:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 109.9631ms (afa2e885)
+2020-12-18T15:53:13.5095383+03:00 0HM53AFGN7FE5:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-18T15:53:13.6824369+03:00 0HM53AFGN7FE5:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: RenderBody has not been called for the page at '/Views/Shared/_Layout.cshtml'. To ignore call IgnoreBody().
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.EnsureRenderedBodyOrSections()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-12-18T15:53:13.6978582+03:00 0HM53AFGN7FE5:00000001 [INF] Request finished in 382.1521ms 500 text/html; charset=utf-8 (791a596a)
+2020-12-18T15:54:03.3638259+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:54:04.1526262+03:00  [INF] Executed DbCommand ("53"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:54:04.1674824+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-18T15:54:04.1694395+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:54:04.3481326+03:00  [INF] Executed DbCommand ("46"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:54:04.5129075+03:00  [INF] Executed DbCommand ("47"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T15:54:04.5830055+03:00  [INF] Executed DbCommand ("43"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T15:54:04.6376275+03:00  [INF] Executed DbCommand ("47"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-18T15:54:04.7308503+03:00  [INF] Now listening on: "http://127.0.0.1:22834" (d826f4b8)
+2020-12-18T15:54:04.7317444+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-18T15:54:04.7317690+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-18T15:54:04.7317846+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-18T15:54:04.9180505+03:00 0HM53AG03AKD9:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-18T15:54:04.9419397+03:00 0HM53AG03AKD9:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-18T15:54:04.9510360+03:00 0HM53AG03AKD9:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T15:54:04.9949943+03:00 0HM53AG03AKD9:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-12-18T15:54:05.0295969+03:00 0HM53AG03AKD9:00000001 [INF] Executed ViewResult - view "Index" executed in 34.3089ms. (f66409e9)
+2020-12-18T15:54:05.0298017+03:00 0HM53AG03AKD9:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 78.6121ms (afa2e885)
+2020-12-18T15:54:05.0301081+03:00 0HM53AG03AKD9:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-18T15:54:05.0313756+03:00 0HM53AG03AKD9:00000001 [INF] Request finished in 114.9505ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T15:54:07.4737507+03:00 0HM53AG03AKD9:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T15:54:07.4753574+03:00 0HM53AG03AKD9:00000002 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T15:54:07.4813199+03:00 0HM53AG03AKD9:00000002 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T15:54:07.5006547+03:00 0HM53AG03AKD9:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:54:07.6820203+03:00 0HM53AG03AKD9:00000002 [INF] Executed DbCommand ("46"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:54:07.6827404+03:00 0HM53AG03AKD9:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:54:07.8652676+03:00 0HM53AG03AKD9:00000002 [INF] Executed DbCommand ("48"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:54:07.8706504+03:00 0HM53AG03AKD9:00000002 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T15:54:07.8924498+03:00 0HM53AG03AKD9:00000002 [INF] Executed ViewResult - view "Login" executed in 22.3026ms. (f66409e9)
+2020-12-18T15:54:07.8925278+03:00 0HM53AG03AKD9:00000002 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 411.1652ms (afa2e885)
+2020-12-18T15:54:07.8925666+03:00 0HM53AG03AKD9:00000002 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T15:54:07.8939129+03:00 0HM53AG03AKD9:00000002 [INF] Request finished in 420.2834ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T15:54:07.9054291+03:00 0HM53AG03AKD9:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/style.css   (ca22a1cb)
+2020-12-18T15:54:07.9056234+03:00 0HM53AG03AKDA:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/bootstrap.css   (ca22a1cb)
+2020-12-18T15:54:07.9059607+03:00 0HM53AG03AKDB:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/font-awesome.css   (ca22a1cb)
+2020-12-18T15:54:07.9089188+03:00 0HM53AG03AKDA:00000001 [INF] Request finished in 3.2906ms 404  (791a596a)
+2020-12-18T15:54:07.9089213+03:00 0HM53AG03AKD9:00000003 [INF] Request finished in 3.5234ms 404  (791a596a)
+2020-12-18T15:54:07.9089213+03:00 0HM53AG03AKDB:00000001 [INF] Request finished in 2.9571ms 404  (791a596a)
+2020-12-18T15:54:07.9129265+03:00 0HM53AG03AKDB:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/style.css   (ca22a1cb)
+2020-12-18T15:54:07.9131725+03:00 0HM53AG03AKDB:00000002 [INF] Request finished in 0.264ms 404  (791a596a)
+2020-12-18T15:54:07.9154671+03:00 0HM53AG03AKDA:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/font-awesome.css   (ca22a1cb)
+2020-12-18T15:54:07.9155862+03:00 0HM53AG03AKDA:00000002 [INF] Request finished in 0.1278ms 404  (791a596a)
+2020-12-18T15:54:11.7296493+03:00 0HM53AG03AKDB:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/bootstrap.css   (ca22a1cb)
+2020-12-18T15:54:11.7296490+03:00 0HM53AG03AKDA:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/font-awesome.css   (ca22a1cb)
+2020-12-18T15:54:11.7296518+03:00 0HM53AG03AKD9:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/style.css   (ca22a1cb)
+2020-12-18T15:54:11.7325149+03:00 0HM53AG03AKDB:00000003 [INF] Request finished in 2.9699ms 404  (791a596a)
+2020-12-18T15:54:11.7325723+03:00 0HM53AG03AKD9:00000004 [INF] Request finished in 2.9705ms 404  (791a596a)
+2020-12-18T15:54:11.7326619+03:00 0HM53AG03AKDA:00000003 [INF] Request finished in 2.9928ms 404  (791a596a)
+2020-12-18T15:55:18.6765162+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:55:19.4609575+03:00  [INF] Executed DbCommand ("57"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:55:19.4760625+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-18T15:55:19.4782482+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:55:19.6646266+03:00  [INF] Executed DbCommand ("47"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:55:19.8324862+03:00  [INF] Executed DbCommand ("50"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T15:55:19.9060469+03:00  [INF] Executed DbCommand ("46"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T15:55:19.9632014+03:00  [INF] Executed DbCommand ("50"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-18T15:55:20.0526593+03:00  [INF] Now listening on: "http://127.0.0.1:45924" (d826f4b8)
+2020-12-18T15:55:20.0536393+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-18T15:55:20.0536674+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-18T15:55:20.0536888+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-18T15:55:20.2112812+03:00 0HM53AGMHCFE3:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-18T15:55:20.2332844+03:00 0HM53AGMHCFE3:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-18T15:55:20.2415668+03:00 0HM53AGMHCFE3:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T15:55:20.2836211+03:00 0HM53AGMHCFE3:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-12-18T15:55:20.3167688+03:00 0HM53AGMHCFE3:00000001 [INF] Executed ViewResult - view "Index" executed in 32.4949ms. (f66409e9)
+2020-12-18T15:55:20.3169419+03:00 0HM53AGMHCFE3:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 75.2294ms (afa2e885)
+2020-12-18T15:55:20.3172435+03:00 0HM53AGMHCFE3:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-18T15:55:20.3185328+03:00 0HM53AGMHCFE3:00000001 [INF] Request finished in 108.7316ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T15:55:35.8954629+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:55:36.6464738+03:00  [INF] Executed DbCommand ("51"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:55:36.6614058+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-18T15:55:36.6634660+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:55:36.8491411+03:00  [INF] Executed DbCommand ("47"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:55:37.0114408+03:00  [INF] Executed DbCommand ("45"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T15:55:37.0835804+03:00  [INF] Executed DbCommand ("45"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T15:55:37.1369798+03:00  [INF] Executed DbCommand ("46"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-18T15:55:37.2258123+03:00  [INF] Now listening on: "http://127.0.0.1:3754" (d826f4b8)
+2020-12-18T15:55:37.2267043+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-18T15:55:37.2267262+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-18T15:55:37.2267397+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-18T15:55:37.4538038+03:00 0HM53AGRLQB48:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-18T15:55:37.4804812+03:00 0HM53AGRLQB48:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-18T15:55:37.4891365+03:00 0HM53AGRLQB48:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T15:55:37.5313813+03:00 0HM53AGRLQB48:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-12-18T15:55:37.5647368+03:00 0HM53AGRLQB48:00000001 [INF] Executed ViewResult - view "Index" executed in 32.7042ms. (f66409e9)
+2020-12-18T15:55:37.5649216+03:00 0HM53AGRLQB48:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 75.6392ms (afa2e885)
+2020-12-18T15:55:37.5652246+03:00 0HM53AGRLQB48:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-18T15:55:37.5664588+03:00 0HM53AGRLQB48:00000001 [INF] Request finished in 114.2494ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T15:55:38.9785458+03:00 0HM53AGRLQB48:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T15:55:38.9801055+03:00 0HM53AGRLQB48:00000002 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T15:55:38.9860997+03:00 0HM53AGRLQB48:00000002 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T15:55:39.0061553+03:00 0HM53AGRLQB48:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:55:39.1889098+03:00 0HM53AGRLQB48:00000002 [INF] Executed DbCommand ("46"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:55:39.1897042+03:00 0HM53AGRLQB48:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:55:39.3901087+03:00 0HM53AGRLQB48:00000002 [INF] Executed DbCommand ("57"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:55:39.3960276+03:00 0HM53AGRLQB48:00000002 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T15:55:39.4170768+03:00 0HM53AGRLQB48:00000002 [INF] Executed ViewResult - view "Login" executed in 21.5696ms. (f66409e9)
+2020-12-18T15:55:39.4171522+03:00 0HM53AGRLQB48:00000002 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 431.0076ms (afa2e885)
+2020-12-18T15:55:39.4171910+03:00 0HM53AGRLQB48:00000002 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T15:55:39.4181940+03:00 0HM53AGRLQB48:00000002 [INF] Request finished in 439.7743ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T15:55:39.4301000+03:00 0HM53AGRLQB48:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/bootstrap.css   (ca22a1cb)
+2020-12-18T15:55:39.4305887+03:00 0HM53AGRLQB49:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/font-awesome.css   (ca22a1cb)
+2020-12-18T15:55:39.4307951+03:00 0HM53AGRLQB4A:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/style.css   (ca22a1cb)
+2020-12-18T15:55:39.4335670+03:00 0HM53AGRLQB4A:00000001 [INF] Request finished in 2.7646ms 404  (791a596a)
+2020-12-18T15:55:39.4335671+03:00 0HM53AGRLQB49:00000001 [INF] Request finished in 2.9972ms 404  (791a596a)
+2020-12-18T15:55:39.4335670+03:00 0HM53AGRLQB48:00000003 [INF] Request finished in 3.5048ms 404  (791a596a)
+2020-12-18T15:55:45.1724681+03:00 0HM53AGRLQB48:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/font-awesome.css   (ca22a1cb)
+2020-12-18T15:55:45.1724682+03:00 0HM53AGRLQB49:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/style.css   (ca22a1cb)
+2020-12-18T15:55:45.1724681+03:00 0HM53AGRLQB4A:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/bootstrap.css   (ca22a1cb)
+2020-12-18T15:55:45.1755291+03:00 0HM53AGRLQB48:00000004 [INF] Request finished in 3.1176ms 404  (791a596a)
+2020-12-18T15:55:45.1755203+03:00 0HM53AGRLQB49:00000002 [INF] Request finished in 3.1089ms 404  (791a596a)
+2020-12-18T15:55:45.1758931+03:00 0HM53AGRLQB4A:00000002 [INF] Request finished in 3.5233ms 404  (791a596a)
+2020-12-18T15:56:06.1838163+03:00 0HM53AGRLQB49:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css.map   (ca22a1cb)
+2020-12-18T15:56:06.1847345+03:00 0HM53AGRLQB49:00000003 [INF] Request finished in 0.9361ms 404  (791a596a)
+2020-12-18T15:56:32.4856215+03:00 0HM53AGRLQB48:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-18T15:56:32.4862560+03:00 0HM53AGRLQB48:00000005 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-18T15:56:32.4866777+03:00 0HM53AGRLQB48:00000005 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T15:56:32.4872030+03:00 0HM53AGRLQB48:00000005 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-12-18T15:56:32.4880572+03:00 0HM53AGRLQB48:00000005 [INF] Executed ViewResult - view "Index" executed in 0.9446ms. (f66409e9)
+2020-12-18T15:56:32.4881189+03:00 0HM53AGRLQB48:00000005 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 1.367ms (afa2e885)
+2020-12-18T15:56:32.4881472+03:00 0HM53AGRLQB48:00000005 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-18T15:56:32.4882229+03:00 0HM53AGRLQB48:00000005 [INF] Request finished in 2.6872ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T15:56:32.5053068+03:00 0HM53AGRLQB49:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css   (ca22a1cb)
+2020-12-18T15:56:32.5053068+03:00 0HM53AGRLQB48:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/font-awesome.css   (ca22a1cb)
+2020-12-18T15:56:32.5053073+03:00 0HM53AGRLQB4A:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/style.css   (ca22a1cb)
+2020-12-18T15:56:32.5153897+03:00 0HM53AGRLQB49:00000004 [INF] Sending file. Request path: '"/css/bootstrap.css"'. Physical path: '"C:\Users\Arter\ASP\SocialNetwork\SocialNetwork\wwwroot\css\bootstrap.css"' (27b0a520)
+2020-12-18T15:56:32.5153898+03:00 0HM53AGRLQB4A:00000003 [INF] Sending file. Request path: '"/css/style.css"'. Physical path: '"C:\Users\Arter\ASP\SocialNetwork\SocialNetwork\wwwroot\css\style.css"' (27b0a520)
+2020-12-18T15:56:32.5153978+03:00 0HM53AGRLQB48:00000006 [INF] Sending file. Request path: '"/css/font-awesome.css"'. Physical path: '"C:\Users\Arter\ASP\SocialNetwork\SocialNetwork\wwwroot\css\font-awesome.css"' (27b0a520)
+2020-12-18T15:56:32.5162134+03:00 0HM53AGRLQB48:00000006 [INF] Request finished in 10.9604ms 200 text/css (791a596a)
+2020-12-18T15:56:32.5162104+03:00 0HM53AGRLQB49:00000004 [INF] Request finished in 10.9597ms 200 text/css (791a596a)
+2020-12-18T15:56:32.5162104+03:00 0HM53AGRLQB4A:00000003 [INF] Request finished in 10.9597ms 200 text/css (791a596a)
+2020-12-18T15:56:32.5793113+03:00 0HM53AGRLQB4A:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44365/favicon.ico   (ca22a1cb)
+2020-12-18T15:56:32.5797456+03:00 0HM53AGRLQB4A:00000004 [INF] Request finished in 0.4427ms 404  (791a596a)
+2020-12-18T15:56:34.0468596+03:00 0HM53AGRLQB48:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T15:56:34.0474862+03:00 0HM53AGRLQB48:00000007 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T15:56:34.0478107+03:00 0HM53AGRLQB48:00000007 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T15:56:34.0502867+03:00 0HM53AGRLQB48:00000007 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:56:34.2294087+03:00 0HM53AGRLQB48:00000007 [INF] Executed DbCommand ("43"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:56:34.2463835+03:00 0HM53AGRLQB48:00000007 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:56:34.4358327+03:00 0HM53AGRLQB48:00000007 [INF] Executed DbCommand ("45"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:56:34.4366310+03:00 0HM53AGRLQB48:00000007 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T15:56:34.4384352+03:00 0HM53AGRLQB48:00000007 [INF] Executed ViewResult - view "Login" executed in 1.8733ms. (f66409e9)
+2020-12-18T15:56:34.4384890+03:00 0HM53AGRLQB48:00000007 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 390.6216ms (afa2e885)
+2020-12-18T15:56:34.4385154+03:00 0HM53AGRLQB48:00000007 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T15:56:34.4386421+03:00 0HM53AGRLQB48:00000007 [INF] Request finished in 391.8812ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T15:56:34.4500310+03:00 0HM53AGRLQB48:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/font-awesome.css   (ca22a1cb)
+2020-12-18T15:56:34.4500310+03:00 0HM53AGRLQB4A:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/bootstrap.css   (ca22a1cb)
+2020-12-18T15:56:34.4500415+03:00 0HM53AGRLQB49:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/style.css   (ca22a1cb)
+2020-12-18T15:56:34.4507209+03:00 0HM53AGRLQB48:00000008 [INF] Request finished in 0.7496ms 404  (791a596a)
+2020-12-18T15:56:34.4507215+03:00 0HM53AGRLQB4A:00000005 [INF] Request finished in 0.7521ms 404  (791a596a)
+2020-12-18T15:56:34.4507477+03:00 0HM53AGRLQB49:00000005 [INF] Request finished in 0.758ms 404  (791a596a)
+2020-12-18T15:56:36.0448074+03:00 0HM53AGRLQB4A:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T15:56:36.0453021+03:00 0HM53AGRLQB4A:00000006 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T15:56:36.0455714+03:00 0HM53AGRLQB4A:00000006 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T15:56:36.0463986+03:00 0HM53AGRLQB4A:00000006 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:56:36.2371981+03:00 0HM53AGRLQB4A:00000006 [INF] Executed DbCommand ("46"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:56:36.2393384+03:00 0HM53AGRLQB4A:00000006 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:56:36.4050086+03:00 0HM53AGRLQB4A:00000006 [INF] Executed DbCommand ("47"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:56:36.4067204+03:00 0HM53AGRLQB4A:00000006 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T15:56:36.4100851+03:00 0HM53AGRLQB4A:00000006 [INF] Executed ViewResult - view "Login" executed in 3.4362ms. (f66409e9)
+2020-12-18T15:56:36.4102127+03:00 0HM53AGRLQB4A:00000006 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 364.5532ms (afa2e885)
+2020-12-18T15:56:36.4103005+03:00 0HM53AGRLQB4A:00000006 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T15:56:36.4106770+03:00 0HM53AGRLQB4A:00000006 [INF] Request finished in 365.899ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T15:56:36.4222006+03:00 0HM53AGRLQB49:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/bootstrap.css   (ca22a1cb)
+2020-12-18T15:56:36.4222006+03:00 0HM53AGRLQB4A:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/font-awesome.css   (ca22a1cb)
+2020-12-18T15:56:36.4222095+03:00 0HM53AGRLQB48:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/style.css   (ca22a1cb)
+2020-12-18T15:56:36.4232533+03:00 0HM53AGRLQB4A:00000007 [INF] Request finished in 1.0053ms 404  (791a596a)
+2020-12-18T15:56:36.4232635+03:00 0HM53AGRLQB48:00000009 [INF] Request finished in 1.0006ms 404  (791a596a)
+2020-12-18T15:56:36.4234149+03:00 0HM53AGRLQB49:00000006 [INF] Request finished in 1.1886ms 404  (791a596a)
+2020-12-18T15:56:36.4828721+03:00 0HM53AGRLQB48:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:44365/favicon.ico   (ca22a1cb)
+2020-12-18T15:56:36.4834760+03:00 0HM53AGRLQB48:0000000A [INF] Request finished in 0.6911ms 404  (791a596a)
+2020-12-18T15:56:38.2968191+03:00 0HM53AGRLQB4A:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T15:56:38.2972476+03:00 0HM53AGRLQB4A:00000008 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T15:56:38.2974702+03:00 0HM53AGRLQB4A:00000008 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T15:56:38.2981694+03:00 0HM53AGRLQB4A:00000008 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:56:38.4784352+03:00 0HM53AGRLQB4A:00000008 [INF] Executed DbCommand ("47"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:56:38.4790980+03:00 0HM53AGRLQB4A:00000008 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T15:56:38.6558686+03:00 0HM53AGRLQB4A:00000008 [INF] Executed DbCommand ("47"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T15:56:38.6566326+03:00 0HM53AGRLQB4A:00000008 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T15:56:38.6588487+03:00 0HM53AGRLQB4A:00000008 [INF] Executed ViewResult - view "Login" executed in 2.325ms. (f66409e9)
+2020-12-18T15:56:38.6589240+03:00 0HM53AGRLQB4A:00000008 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 361.4119ms (afa2e885)
+2020-12-18T15:56:38.6589601+03:00 0HM53AGRLQB4A:00000008 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T15:56:38.6591719+03:00 0HM53AGRLQB4A:00000008 [INF] Request finished in 362.3741ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T15:56:38.6706820+03:00 0HM53AGRLQB49:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/bootstrap.css   (ca22a1cb)
+2020-12-18T15:56:38.6706820+03:00 0HM53AGRLQB4A:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/font-awesome.css   (ca22a1cb)
+2020-12-18T15:56:38.6706824+03:00 0HM53AGRLQB48:0000000B [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/style.css   (ca22a1cb)
+2020-12-18T15:56:38.6715019+03:00 0HM53AGRLQB48:0000000B [INF] Request finished in 0.7858ms 404  (791a596a)
+2020-12-18T15:56:38.6715020+03:00 0HM53AGRLQB4A:00000009 [INF] Request finished in 0.7865ms 404  (791a596a)
+2020-12-18T15:56:38.6715198+03:00 0HM53AGRLQB49:00000007 [INF] Request finished in 0.8359ms 404  (791a596a)
+2020-12-18T15:56:38.7474361+03:00 0HM53AGRLQB4A:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:44365/favicon.ico   (ca22a1cb)
+2020-12-18T15:56:38.7478826+03:00 0HM53AGRLQB4A:0000000A [INF] Request finished in 0.4581ms 404  (791a596a)
+2020-12-18T16:00:11.7706362+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T16:00:12.5321968+03:00  [INF] Executed DbCommand ("56"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T16:00:12.5475239+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-18T16:00:12.5497768+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T16:00:12.7189561+03:00  [INF] Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T16:00:12.8812251+03:00  [INF] Executed DbCommand ("45"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T16:00:12.9502495+03:00  [INF] Executed DbCommand ("41"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T16:00:13.0017221+03:00  [INF] Executed DbCommand ("44"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-18T16:00:13.0948125+03:00  [INF] Now listening on: "http://127.0.0.1:27779" (d826f4b8)
+2020-12-18T16:00:13.0956911+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-18T16:00:13.0957124+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-18T16:00:13.0957306+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-18T16:00:13.3285697+03:00 0HM53AJDSOBVV:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-18T16:00:13.3524731+03:00 0HM53AJDSOBVV:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-18T16:00:13.3613604+03:00 0HM53AJDSOBVV:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T16:00:13.4057712+03:00 0HM53AJDSOBVV:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-12-18T16:00:13.4398269+03:00 0HM53AJDSOBVV:00000001 [INF] Executed ViewResult - view "Index" executed in 33.173ms. (f66409e9)
+2020-12-18T16:00:13.4400072+03:00 0HM53AJDSOBVV:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 78.4557ms (afa2e885)
+2020-12-18T16:00:13.4403545+03:00 0HM53AJDSOBVV:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-18T16:00:13.4416755+03:00 0HM53AJDSOBVV:00000001 [INF] Request finished in 114.6107ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T16:01:19.1012285+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T16:01:19.8821787+03:00  [INF] Executed DbCommand ("56"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T16:01:19.8975786+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-18T16:01:19.8998838+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T16:01:20.0694672+03:00  [INF] Executed DbCommand ("49"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T16:01:20.2403997+03:00  [INF] Executed DbCommand ("51"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T16:01:20.3323183+03:00  [INF] Executed DbCommand ("63"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T16:01:20.3922170+03:00  [INF] Executed DbCommand ("52"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-18T16:01:20.4843264+03:00  [INF] Now listening on: "http://127.0.0.1:44037" (d826f4b8)
+2020-12-18T16:01:20.4852866+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-18T16:01:20.4853096+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-18T16:01:20.4853242+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-18T16:01:20.6632265+03:00 0HM53AK1UTILL:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-18T16:01:20.6865888+03:00 0HM53AK1UTILL:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-18T16:01:20.6951016+03:00 0HM53AK1UTILL:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T16:01:20.7373197+03:00 0HM53AK1UTILL:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-12-18T16:01:20.7696830+03:00 0HM53AK1UTILL:00000001 [INF] Executed ViewResult - view "Index" executed in 31.6902ms. (f66409e9)
+2020-12-18T16:01:20.7698765+03:00 0HM53AK1UTILL:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 74.6165ms (afa2e885)
+2020-12-18T16:01:20.7701827+03:00 0HM53AK1UTILL:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-18T16:01:20.7713973+03:00 0HM53AK1UTILL:00000001 [INF] Request finished in 109.6963ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T16:01:23.8660456+03:00 0HM53AK1UTILL:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T16:01:23.8674953+03:00 0HM53AK1UTILL:00000002 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T16:01:23.8738880+03:00 0HM53AK1UTILL:00000002 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T16:01:23.8953909+03:00 0HM53AK1UTILL:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T16:01:24.0792162+03:00 0HM53AK1UTILL:00000002 [INF] Executed DbCommand ("50"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T16:01:24.0799157+03:00 0HM53AK1UTILL:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T16:01:24.2794950+03:00 0HM53AK1UTILL:00000002 [INF] Executed DbCommand ("52"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T16:01:24.2847336+03:00 0HM53AK1UTILL:00000002 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T16:01:24.3066889+03:00 0HM53AK1UTILL:00000002 [INF] Executed ViewResult - view "Login" executed in 22.4545ms. (f66409e9)
+2020-12-18T16:01:24.3067660+03:00 0HM53AK1UTILL:00000002 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 432.8177ms (afa2e885)
+2020-12-18T16:01:24.3068019+03:00 0HM53AK1UTILL:00000002 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T16:01:24.3077627+03:00 0HM53AK1UTILL:00000002 [INF] Request finished in 441.849ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T16:01:24.3195286+03:00 0HM53AK1UTILL:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/bootstrap.css   (ca22a1cb)
+2020-12-18T16:01:24.3198592+03:00 0HM53AK1UTILM:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/style.css   (ca22a1cb)
+2020-12-18T16:01:24.3201610+03:00 0HM53AK1UTILN:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/font-awesome.css   (ca22a1cb)
+2020-12-18T16:01:24.3231377+03:00 0HM53AK1UTILN:00000001 [INF] Request finished in 2.9857ms 404  (791a596a)
+2020-12-18T16:01:24.3231411+03:00 0HM53AK1UTILL:00000003 [INF] Request finished in 3.6463ms 404  (791a596a)
+2020-12-18T16:01:24.3231377+03:00 0HM53AK1UTILM:00000001 [INF] Request finished in 3.2644ms 404  (791a596a)
+2020-12-18T16:03:05.4081511+03:00 0HM53AK1UTILQ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/style.css   (ca22a1cb)
+2020-12-18T16:03:05.4081513+03:00 0HM53AK1UTILO:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/bootstrap.css   (ca22a1cb)
+2020-12-18T16:03:05.4081513+03:00 0HM53AK1UTILP:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/font-awesome.css   (ca22a1cb)
+2020-12-18T16:03:05.4097318+03:00 0HM53AK1UTILP:00000001 [INF] Request finished in 1.8988ms 404  (791a596a)
+2020-12-18T16:03:05.4097311+03:00 0HM53AK1UTILQ:00000001 [INF] Request finished in 1.8785ms 404  (791a596a)
+2020-12-18T16:03:05.4097319+03:00 0HM53AK1UTILO:00000001 [INF] Request finished in 1.8992ms 404  (791a596a)
+2020-12-18T16:03:15.9541397+03:00 0HM53AK1UTILQ:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css.map   (ca22a1cb)
+2020-12-18T16:03:15.9553036+03:00 0HM53AK1UTILQ:00000002 [INF] Request finished in 1.3536ms 404  (791a596a)
+2020-12-18T16:03:22.3975175+03:00 0HM53AK1UTILP:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T16:03:22.3982761+03:00 0HM53AK1UTILP:00000002 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T16:03:22.3986721+03:00 0HM53AK1UTILP:00000002 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T16:03:22.4005785+03:00 0HM53AK1UTILP:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T16:03:22.5769650+03:00 0HM53AK1UTILP:00000002 [INF] Executed DbCommand ("51"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T16:03:22.5797118+03:00 0HM53AK1UTILP:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T16:03:22.7655680+03:00 0HM53AK1UTILP:00000002 [INF] Executed DbCommand ("49"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T16:03:22.7663496+03:00 0HM53AK1UTILP:00000002 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T16:03:22.7680972+03:00 0HM53AK1UTILP:00000002 [INF] Executed ViewResult - view "Login" executed in 1.8552ms. (f66409e9)
+2020-12-18T16:03:22.7681493+03:00 0HM53AK1UTILP:00000002 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 369.3993ms (afa2e885)
+2020-12-18T16:03:22.7681778+03:00 0HM53AK1UTILP:00000002 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T16:03:22.7683025+03:00 0HM53AK1UTILP:00000002 [INF] Request finished in 370.9264ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T16:03:25.1288170+03:00 0HM53AK1UTILO:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css.map   (ca22a1cb)
+2020-12-18T16:03:25.1296610+03:00 0HM53AK1UTILO:00000002 [INF] Request finished in 0.877ms 404  (791a596a)
+2020-12-18T16:03:25.8526900+03:00 0HM53AK1UTILQ:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T16:03:25.8533315+03:00 0HM53AK1UTILQ:00000003 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T16:03:25.8536555+03:00 0HM53AK1UTILQ:00000003 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T16:03:25.8546597+03:00 0HM53AK1UTILQ:00000003 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T16:03:26.0402536+03:00 0HM53AK1UTILQ:00000003 [INF] Executed DbCommand ("48"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T16:03:26.0435390+03:00 0HM53AK1UTILQ:00000003 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T16:03:26.2402860+03:00 0HM53AK1UTILQ:00000003 [INF] Executed DbCommand ("53"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T16:03:26.2422921+03:00 0HM53AK1UTILQ:00000003 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T16:03:26.2442380+03:00 0HM53AK1UTILQ:00000003 [INF] Executed ViewResult - view "Login" executed in 2.0473ms. (f66409e9)
+2020-12-18T16:03:26.2442902+03:00 0HM53AK1UTILQ:00000003 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 390.5459ms (afa2e885)
+2020-12-18T16:03:26.2443213+03:00 0HM53AK1UTILQ:00000003 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T16:03:26.2444665+03:00 0HM53AK1UTILQ:00000003 [INF] Request finished in 391.8584ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T16:03:27.2162319+03:00 0HM53AK1UTILP:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css.map   (ca22a1cb)
+2020-12-18T16:03:27.2169971+03:00 0HM53AK1UTILP:00000003 [INF] Request finished in 0.7855ms 404  (791a596a)
+2020-12-18T16:03:31.6850032+03:00 0HM53AK1UTILO:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T16:03:31.6855068+03:00 0HM53AK1UTILO:00000003 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T16:03:31.6857570+03:00 0HM53AK1UTILO:00000003 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T16:03:31.6864745+03:00 0HM53AK1UTILO:00000003 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T16:03:31.9233801+03:00 0HM53AK1UTILO:00000003 [INF] Executed DbCommand ("48"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T16:03:31.9240776+03:00 0HM53AK1UTILO:00000003 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T16:03:32.1106241+03:00 0HM53AK1UTILO:00000003 [INF] Executed DbCommand ("48"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T16:03:32.1113716+03:00 0HM53AK1UTILO:00000003 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T16:03:32.1130067+03:00 0HM53AK1UTILO:00000003 [INF] Executed ViewResult - view "Login" executed in 1.7042ms. (f66409e9)
+2020-12-18T16:03:32.1130660+03:00 0HM53AK1UTILO:00000003 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 427.2715ms (afa2e885)
+2020-12-18T16:03:32.1130959+03:00 0HM53AK1UTILO:00000003 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T16:03:32.1132354+03:00 0HM53AK1UTILO:00000003 [INF] Request finished in 428.2895ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T16:04:17.1051895+03:00 0HM53AK1UTILQ:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css.map   (ca22a1cb)
+2020-12-18T16:04:17.1058366+03:00 0HM53AK1UTILQ:00000004 [INF] Request finished in 0.661ms 404  (791a596a)
+2020-12-18T16:04:21.7812909+03:00 0HM53AK1UTILP:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T16:04:21.7817299+03:00 0HM53AK1UTILP:00000004 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T16:04:21.7819703+03:00 0HM53AK1UTILP:00000004 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T16:04:21.7825757+03:00 0HM53AK1UTILP:00000004 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T16:04:21.9626161+03:00 0HM53AK1UTILP:00000004 [INF] Executed DbCommand ("50"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T16:04:21.9633299+03:00 0HM53AK1UTILP:00000004 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T16:04:22.1401891+03:00 0HM53AK1UTILP:00000004 [INF] Executed DbCommand ("47"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T16:04:22.1408890+03:00 0HM53AK1UTILP:00000004 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T16:04:22.1424967+03:00 0HM53AK1UTILP:00000004 [INF] Executed ViewResult - view "Login" executed in 1.6753ms. (f66409e9)
+2020-12-18T16:04:22.1425533+03:00 0HM53AK1UTILP:00000004 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 360.5527ms (afa2e885)
+2020-12-18T16:04:22.1425836+03:00 0HM53AK1UTILP:00000004 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T16:04:22.1427150+03:00 0HM53AK1UTILP:00000004 [INF] Request finished in 361.5425ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T16:06:16.4060165+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T16:06:17.1358265+03:00  [INF] Executed DbCommand ("55"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T16:06:17.1512911+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-18T16:06:17.1535331+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T16:06:17.3248022+03:00  [INF] Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T16:06:17.4945895+03:00  [INF] Executed DbCommand ("51"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T16:06:17.5647416+03:00  [INF] Executed DbCommand ("42"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T16:06:17.6159502+03:00  [INF] Executed DbCommand ("44"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-18T16:06:17.7098479+03:00  [INF] Now listening on: "http://127.0.0.1:43388" (d826f4b8)
+2020-12-18T16:06:17.7108013+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-18T16:06:17.7108274+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-18T16:06:17.7108401+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-18T16:06:17.9650293+03:00 0HM53AMQI6QQH:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-18T16:06:17.9886104+03:00 0HM53AMQI6QQH:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-18T16:06:17.9976205+03:00 0HM53AMQI6QQH:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T16:06:18.0407834+03:00 0HM53AMQI6QQH:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-12-18T16:06:18.0760230+03:00 0HM53AMQI6QQH:00000001 [INF] Executed ViewResult - view "Index" executed in 34.4803ms. (f66409e9)
+2020-12-18T16:06:18.0762388+03:00 0HM53AMQI6QQH:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 78.4604ms (afa2e885)
+2020-12-18T16:06:18.0765435+03:00 0HM53AMQI6QQH:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-18T16:06:18.0778085+03:00 0HM53AMQI6QQH:00000001 [INF] Request finished in 114.3666ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T16:06:19.6410703+03:00 0HM53AMQI6QQH:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T16:06:19.6427356+03:00 0HM53AMQI6QQH:00000002 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T16:06:19.6493190+03:00 0HM53AMQI6QQH:00000002 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T16:06:19.6688874+03:00 0HM53AMQI6QQH:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T16:06:19.8541819+03:00 0HM53AMQI6QQH:00000002 [INF] Executed DbCommand ("47"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T16:06:19.8549044+03:00 0HM53AMQI6QQH:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T16:06:20.0312213+03:00 0HM53AMQI6QQH:00000002 [INF] Executed DbCommand ("42"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T16:06:20.0375460+03:00 0HM53AMQI6QQH:00000002 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T16:06:20.0596850+03:00 0HM53AMQI6QQH:00000002 [INF] Executed ViewResult - view "Login" executed in 23.1087ms. (f66409e9)
+2020-12-18T16:06:20.0597674+03:00 0HM53AMQI6QQH:00000002 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 410.3927ms (afa2e885)
+2020-12-18T16:06:20.0598068+03:00 0HM53AMQI6QQH:00000002 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T16:06:20.0611577+03:00 0HM53AMQI6QQH:00000002 [INF] Request finished in 420.187ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T16:07:12.6627766+03:00 0HM53AMQI6QQH:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Register   (ca22a1cb)
+2020-12-18T16:07:12.6660419+03:00 0HM53AMQI6QQH:00000003 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Register (SocialNetwork)"' (500cc934)
+2020-12-18T16:07:12.6678691+03:00 0HM53AMQI6QQH:00000003 [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Register()" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T16:07:12.6695338+03:00 0HM53AMQI6QQH:00000003 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T16:07:12.8356993+03:00 0HM53AMQI6QQH:00000003 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T16:07:12.8383966+03:00 0HM53AMQI6QQH:00000003 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T16:07:13.0259283+03:00 0HM53AMQI6QQH:00000003 [INF] Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T16:07:13.0275584+03:00 0HM53AMQI6QQH:00000003 [INF] Executing ViewResult, running view "Register". (c83d0e25)
+2020-12-18T16:07:13.0541800+03:00 0HM53AMQI6QQH:00000003 [INF] Executed ViewResult - view "Register" executed in 27.3955ms. (f66409e9)
+2020-12-18T16:07:13.0542514+03:00 0HM53AMQI6QQH:00000003 [INF] Executed action "SocialNetwork.Controllers.AccountController.Register (SocialNetwork)" in 386.3107ms (afa2e885)
+2020-12-18T16:07:13.0542901+03:00 0HM53AMQI6QQH:00000003 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Register (SocialNetwork)"' (99874f2b)
+2020-12-18T16:07:13.0544440+03:00 0HM53AMQI6QQH:00000003 [INF] Request finished in 391.8312ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T16:07:13.0684152+03:00 0HM53AMQI6QQH:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/style.css   (ca22a1cb)
+2020-12-18T16:07:13.0689308+03:00 0HM53AMQI6QQJ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/font-awesome.css   (ca22a1cb)
+2020-12-18T16:07:13.0689277+03:00 0HM53AMQI6QQI:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/bootstrap.css   (ca22a1cb)
+2020-12-18T16:07:13.0698283+03:00 0HM53AMQI6QQH:00000004 [INF] Request finished in 1.4788ms 404  (791a596a)
+2020-12-18T16:07:13.0698327+03:00 0HM53AMQI6QQI:00000001 [INF] Request finished in 0.9302ms 404  (791a596a)
+2020-12-18T16:07:13.0698716+03:00 0HM53AMQI6QQJ:00000001 [INF] Request finished in 0.9489ms 404  (791a596a)
+2020-12-18T16:07:13.0738511+03:00 0HM53AMQI6QQI:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/style.css   (ca22a1cb)
+2020-12-18T16:07:13.0741802+03:00 0HM53AMQI6QQI:00000002 [INF] Request finished in 0.3464ms 404  (791a596a)
+2020-12-18T16:07:13.0765238+03:00 0HM53AMQI6QQH:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/font-awesome.css   (ca22a1cb)
+2020-12-18T16:07:13.0767101+03:00 0HM53AMQI6QQH:00000005 [INF] Request finished in 0.1965ms 404  (791a596a)
+2020-12-18T22:32:54.8551058+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T22:32:56.3206061+03:00  [INF] Executed DbCommand ("51"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T22:32:56.3364616+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-18T22:32:56.3391433+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T22:32:56.5278444+03:00  [INF] Executed DbCommand ("49"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T22:32:56.7359111+03:00  [INF] Executed DbCommand ("90"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T22:32:56.8081275+03:00  [INF] Executed DbCommand ("44"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T22:32:56.8601553+03:00  [INF] Executed DbCommand ("45"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-18T22:32:56.9485884+03:00  [INF] Now listening on: "http://127.0.0.1:32451" (d826f4b8)
+2020-12-18T22:32:56.9495295+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-18T22:32:56.9495540+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-18T22:32:56.9495727+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-18T22:32:57.1726608+03:00 0HM53HESF2HVM:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-18T22:32:57.1988416+03:00 0HM53HESF2HVM:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-18T22:32:57.2077616+03:00 0HM53HESF2HVM:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T22:32:57.2540453+03:00 0HM53HESF2HVM:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-12-18T22:32:57.2884273+03:00 0HM53HESF2HVM:00000001 [INF] Executed ViewResult - view "Index" executed in 34.2857ms. (f66409e9)
+2020-12-18T22:32:57.2886047+03:00 0HM53HESF2HVM:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 80.6868ms (afa2e885)
+2020-12-18T22:32:57.2888927+03:00 0HM53HESF2HVM:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-18T22:32:57.2902409+03:00 0HM53HESF2HVM:00000001 [INF] Request finished in 119.2433ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T22:33:00.7602758+03:00 0HM53HESF2HVM:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T22:33:00.7618165+03:00 0HM53HESF2HVM:00000002 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T22:33:00.7678004+03:00 0HM53HESF2HVM:00000002 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T22:33:00.7874279+03:00 0HM53HESF2HVM:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T22:33:00.9787530+03:00 0HM53HESF2HVM:00000002 [INF] Executed DbCommand ("48"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T22:33:00.9794914+03:00 0HM53HESF2HVM:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T22:33:01.2293980+03:00 0HM53HESF2HVM:00000002 [INF] Executed DbCommand ("46"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T22:33:01.2355339+03:00 0HM53HESF2HVM:00000002 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T22:33:01.2565206+03:00 0HM53HESF2HVM:00000002 [INF] Executed ViewResult - view "Login" executed in 21.7039ms. (f66409e9)
+2020-12-18T22:33:01.2566002+03:00 0HM53HESF2HVM:00000002 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 488.7499ms (afa2e885)
+2020-12-18T22:33:01.2566331+03:00 0HM53HESF2HVM:00000002 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T22:33:01.2576639+03:00 0HM53HESF2HVM:00000002 [INF] Request finished in 497.5144ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T22:59:45.9933829+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T22:59:46.9179207+03:00  [INF] Executed DbCommand ("59"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T22:59:46.9326915+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-18T22:59:46.9347141+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T22:59:47.1709780+03:00  [INF] Executed DbCommand ("69"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T22:59:47.3461787+03:00  [INF] Executed DbCommand ("56"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T22:59:47.4250618+03:00  [INF] Executed DbCommand ("51"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T22:59:47.4795798+03:00  [INF] Executed DbCommand ("47"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-18T22:59:47.5758011+03:00  [INF] Now listening on: "http://127.0.0.1:16104" (d826f4b8)
+2020-12-18T22:59:47.5766899+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-18T22:59:47.5767137+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-18T22:59:47.5767261+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-18T22:59:47.7332077+03:00 0HM53HTSEJCIU:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-18T22:59:47.7576910+03:00 0HM53HTSEJCIU:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-18T22:59:47.7671350+03:00 0HM53HTSEJCIU:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T22:59:47.8099208+03:00 0HM53HTSEJCIU:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-12-18T22:59:47.8452870+03:00 0HM53HTSEJCIU:00000001 [INF] Executed ViewResult - view "Index" executed in 34.8405ms. (f66409e9)
+2020-12-18T22:59:47.8454747+03:00 0HM53HTSEJCIU:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 78.1782ms (afa2e885)
+2020-12-18T22:59:47.8457648+03:00 0HM53HTSEJCIU:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-18T22:59:47.8469718+03:00 0HM53HTSEJCIU:00000001 [INF] Request finished in 115.2915ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T22:59:49.8459723+03:00 0HM53HTSEJCIU:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T22:59:49.8476419+03:00 0HM53HTSEJCIU:00000002 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T22:59:49.8540713+03:00 0HM53HTSEJCIU:00000002 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T22:59:49.8738399+03:00 0HM53HTSEJCIU:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T22:59:50.0799341+03:00 0HM53HTSEJCIU:00000002 [INF] Executed DbCommand ("52"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T22:59:50.0806511+03:00 0HM53HTSEJCIU:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T22:59:50.2682197+03:00 0HM53HTSEJCIU:00000002 [INF] Executed DbCommand ("46"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T22:59:50.2737382+03:00 0HM53HTSEJCIU:00000002 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T22:59:50.2981043+03:00 0HM53HTSEJCIU:00000002 [INF] Executed ViewResult - view "Login" executed in 24.8677ms. (f66409e9)
+2020-12-18T22:59:50.2981769+03:00 0HM53HTSEJCIU:00000002 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 444.0573ms (afa2e885)
+2020-12-18T22:59:50.2982122+03:00 0HM53HTSEJCIU:00000002 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T22:59:50.2993519+03:00 0HM53HTSEJCIU:00000002 [INF] Request finished in 453.5706ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T22:59:59.8539274+03:00 0HM53HTSEJCIU:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T22:59:59.8572559+03:00 0HM53HTSEJCIU:00000003 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T22:59:59.8576131+03:00 0HM53HTSEJCIU:00000003 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T22:59:59.8592676+03:00 0HM53HTSEJCIU:00000003 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:00:00.0354275+03:00 0HM53HTSEJCIU:00000003 [INF] Executed DbCommand ("50"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:00:00.0382713+03:00 0HM53HTSEJCIU:00000003 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:00:00.2357429+03:00 0HM53HTSEJCIU:00000003 [INF] Executed DbCommand ("47"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:00:00.2370365+03:00 0HM53HTSEJCIU:00000003 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T23:00:00.2391568+03:00 0HM53HTSEJCIU:00000003 [INF] Executed ViewResult - view "Login" executed in 2.2834ms. (f66409e9)
+2020-12-18T23:00:00.2392182+03:00 0HM53HTSEJCIU:00000003 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 381.5629ms (afa2e885)
+2020-12-18T23:00:00.2392545+03:00 0HM53HTSEJCIU:00000003 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T23:00:00.2393922+03:00 0HM53HTSEJCIU:00000003 [INF] Request finished in 385.7132ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T23:00:00.2511875+03:00 0HM53HTSEJCIU:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css   (ca22a1cb)
+2020-12-18T23:00:00.2572288+03:00 0HM53HTSEJCIU:00000004 [INF] Sending file. Request path: '"/css/bootstrap.css"'. Physical path: '"C:\Users\Arter\ASP\SocialNetwork\SocialNetwork\wwwroot\css\bootstrap.css"' (27b0a520)
+2020-12-18T23:00:00.2573228+03:00 0HM53HTSEJCIU:00000004 [INF] Request finished in 6.1805ms 200 text/css (791a596a)
+2020-12-18T23:00:00.3478614+03:00 0HM53HTSEJCIU:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44365/favicon.ico   (ca22a1cb)
+2020-12-18T23:00:00.3484526+03:00 0HM53HTSEJCIU:00000005 [INF] Request finished in 0.6252ms 404  (791a596a)
+2020-12-18T23:00:08.4666333+03:00 0HM53HTSEJCIU:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T23:00:08.4674769+03:00 0HM53HTSEJCIU:00000006 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T23:00:08.4678539+03:00 0HM53HTSEJCIU:00000006 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T23:00:08.4688831+03:00 0HM53HTSEJCIU:00000006 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:00:08.6655071+03:00 0HM53HTSEJCIU:00000006 [INF] Executed DbCommand ("52"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:00:08.6678086+03:00 0HM53HTSEJCIU:00000006 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:00:08.9173377+03:00 0HM53HTSEJCIU:00000006 [INF] Executed DbCommand ("71"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:00:08.9192897+03:00 0HM53HTSEJCIU:00000006 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T23:00:08.9212158+03:00 0HM53HTSEJCIU:00000006 [INF] Executed ViewResult - view "Login" executed in 2.0276ms. (f66409e9)
+2020-12-18T23:00:08.9212712+03:00 0HM53HTSEJCIU:00000006 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 453.3303ms (afa2e885)
+2020-12-18T23:00:08.9212966+03:00 0HM53HTSEJCIU:00000006 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T23:00:08.9214321+03:00 0HM53HTSEJCIU:00000006 [INF] Request finished in 454.9155ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T23:00:08.9338958+03:00 0HM53HTSEJCIU:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css   (ca22a1cb)
+2020-12-18T23:00:08.9351498+03:00 0HM53HTSEJCIU:00000007 [INF] The file "/css/bootstrap.css" was not modified (f1f8d725)
+2020-12-18T23:00:08.9353353+03:00 0HM53HTSEJCIU:00000007 [INF] Request finished in 1.5ms 304 text/css (791a596a)
+2020-12-18T23:00:13.6682011+03:00 0HM53HTSEJCIU:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Register   (ca22a1cb)
+2020-12-18T23:00:13.6692846+03:00 0HM53HTSEJCIU:00000008 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Register (SocialNetwork)"' (500cc934)
+2020-12-18T23:00:13.6719894+03:00 0HM53HTSEJCIU:00000008 [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Register()" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T23:00:13.6729270+03:00 0HM53HTSEJCIU:00000008 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:00:13.8983386+03:00 0HM53HTSEJCIU:00000008 [INF] Executed DbCommand ("46"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:00:13.8990652+03:00 0HM53HTSEJCIU:00000008 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:00:14.0892912+03:00 0HM53HTSEJCIU:00000008 [INF] Executed DbCommand ("47"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:00:14.0905775+03:00 0HM53HTSEJCIU:00000008 [INF] Executing ViewResult, running view "Register". (c83d0e25)
+2020-12-18T23:00:14.1162686+03:00 0HM53HTSEJCIU:00000008 [INF] Executed ViewResult - view "Register" executed in 26.4387ms. (f66409e9)
+2020-12-18T23:00:14.1163360+03:00 0HM53HTSEJCIU:00000008 [INF] Executed action "SocialNetwork.Controllers.AccountController.Register (SocialNetwork)" in 444.2253ms (afa2e885)
+2020-12-18T23:00:14.1163742+03:00 0HM53HTSEJCIU:00000008 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Register (SocialNetwork)"' (99874f2b)
+2020-12-18T23:00:14.1165063+03:00 0HM53HTSEJCIU:00000008 [INF] Request finished in 448.4265ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T23:00:14.1284370+03:00 0HM53HTSEJCIU:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css   (ca22a1cb)
+2020-12-18T23:00:14.1288586+03:00 0HM53HTSEJCIU:00000009 [INF] The file "/css/bootstrap.css" was not modified (f1f8d725)
+2020-12-18T23:00:14.1289432+03:00 0HM53HTSEJCIU:00000009 [INF] Request finished in 0.5633ms 304 text/css (791a596a)
+2020-12-18T23:01:03.6029114+03:00 0HM53HTSEJCIU:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T23:01:03.6035161+03:00 0HM53HTSEJCIU:0000000A [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T23:01:03.6038350+03:00 0HM53HTSEJCIU:0000000A [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T23:01:03.6046023+03:00 0HM53HTSEJCIU:0000000A [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:01:03.8583107+03:00 0HM53HTSEJCIU:0000000A [INF] Executed DbCommand ("52"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:01:03.8588289+03:00 0HM53HTSEJCIU:0000000A [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:01:04.2192989+03:00 0HM53HTSEJCIU:0000000A [INF] Executed DbCommand ("102"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:01:04.2201329+03:00 0HM53HTSEJCIU:0000000A [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T23:01:04.2231365+03:00 0HM53HTSEJCIU:0000000A [INF] Executed ViewResult - view "Login" executed in 3.1106ms. (f66409e9)
+2020-12-18T23:01:04.2232762+03:00 0HM53HTSEJCIU:0000000A [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 619.3321ms (afa2e885)
+2020-12-18T23:01:04.2233366+03:00 0HM53HTSEJCIU:0000000A [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T23:01:04.2236257+03:00 0HM53HTSEJCIU:0000000A [INF] Request finished in 620.8139ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T23:01:04.2357180+03:00 0HM53HTSEJCIU:0000000B [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css   (ca22a1cb)
+2020-12-18T23:01:04.2363343+03:00 0HM53HTSEJCIU:0000000B [INF] The file "/css/bootstrap.css" was not modified (f1f8d725)
+2020-12-18T23:01:04.2365935+03:00 0HM53HTSEJCIU:0000000B [INF] Request finished in 0.9061ms 304 text/css (791a596a)
+2020-12-18T23:24:37.4176143+03:00 0HM53HTSEJCIV:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T23:24:37.4182556+03:00 0HM53HTSEJCIV:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T23:24:37.4184970+03:00 0HM53HTSEJCIV:00000001 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T23:24:37.4191265+03:00 0HM53HTSEJCIV:00000001 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:24:37.7859931+03:00 0HM53HTSEJCIV:00000001 [INF] Executed DbCommand ("53"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:24:37.7863801+03:00 0HM53HTSEJCIV:00000001 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:24:37.9724509+03:00 0HM53HTSEJCIV:00000001 [INF] Executed DbCommand ("52"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:24:37.9738978+03:00 0HM53HTSEJCIV:00000001 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T23:24:37.9754484+03:00 0HM53HTSEJCIV:00000001 [INF] Executed ViewResult - view "Login" executed in 2.3774ms. (f66409e9)
+2020-12-18T23:24:37.9755032+03:00 0HM53HTSEJCIV:00000001 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 556.9789ms (afa2e885)
+2020-12-18T23:24:37.9755305+03:00 0HM53HTSEJCIV:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T23:24:37.9756437+03:00 0HM53HTSEJCIV:00000001 [INF] Request finished in 558.1165ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T23:24:47.3190627+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:24:48.0914271+03:00  [INF] Executed DbCommand ("88"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:24:48.1064901+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-18T23:24:48.1088158+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:24:48.2939249+03:00  [INF] Executed DbCommand ("43"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:24:48.4555542+03:00  [INF] Executed DbCommand ("45"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T23:24:48.5225753+03:00  [INF] Executed DbCommand ("40"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T23:24:48.5730796+03:00  [INF] Executed DbCommand ("43"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-18T23:24:48.6622285+03:00  [INF] Now listening on: "http://127.0.0.1:6499" (d826f4b8)
+2020-12-18T23:24:48.6631127+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-18T23:24:48.6631341+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-18T23:24:48.6631487+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-18T23:24:48.9020567+03:00 0HM53IBRQRCTV:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-18T23:24:48.9253406+03:00 0HM53IBRQRCTV:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-18T23:24:48.9346104+03:00 0HM53IBRQRCTV:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T23:24:48.9778294+03:00 0HM53IBRQRCTV:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-12-18T23:24:49.0128401+03:00 0HM53IBRQRCTV:00000001 [INF] Executed ViewResult - view "Index" executed in 34.472ms. (f66409e9)
+2020-12-18T23:24:49.0130327+03:00 0HM53IBRQRCTV:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 78.2607ms (afa2e885)
+2020-12-18T23:24:49.0133267+03:00 0HM53IBRQRCTV:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-18T23:24:49.0145596+03:00 0HM53IBRQRCTV:00000001 [INF] Request finished in 114.1425ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T23:24:49.0310596+03:00 0HM53IBRQRCTV:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css   (ca22a1cb)
+2020-12-18T23:24:49.0333560+03:00 0HM53IBRQRCTV:00000002 [INF] The file "/css/bootstrap.css" was not modified (f1f8d725)
+2020-12-18T23:24:49.0336924+03:00 0HM53IBRQRCTV:00000002 [INF] Request finished in 2.6664ms 304 text/css (791a596a)
+2020-12-18T23:27:00.1099369+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:27:00.8809169+03:00  [INF] Executed DbCommand ("59"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:27:00.8955616+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-18T23:27:00.8975132+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:27:01.0997513+03:00  [INF] Executed DbCommand ("49"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:27:01.2706933+03:00  [INF] Executed DbCommand ("53"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T23:27:01.3503596+03:00  [INF] Executed DbCommand ("51"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T23:27:01.4073562+03:00  [INF] Executed DbCommand ("49"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-18T23:27:01.5027758+03:00  [INF] Now listening on: "http://127.0.0.1:28554" (d826f4b8)
+2020-12-18T23:27:01.5036781+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-18T23:27:01.5037026+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-18T23:27:01.5037204+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-18T23:27:01.6642406+03:00 0HM53ID3CVGJG:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-18T23:27:01.6865635+03:00 0HM53ID3CVGJG:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-18T23:27:01.6951147+03:00 0HM53ID3CVGJG:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T23:27:01.7378776+03:00 0HM53ID3CVGJG:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-12-18T23:27:01.7728205+03:00 0HM53ID3CVGJG:00000001 [INF] Executed ViewResult - view "Index" executed in 34.298ms. (f66409e9)
+2020-12-18T23:27:01.7730491+03:00 0HM53ID3CVGJG:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 77.7669ms (afa2e885)
+2020-12-18T23:27:01.7733485+03:00 0HM53ID3CVGJG:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-18T23:27:01.7745719+03:00 0HM53ID3CVGJG:00000001 [INF] Request finished in 111.8482ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T23:27:24.4069540+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:27:25.1533624+03:00  [INF] Executed DbCommand ("50"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:27:25.1679148+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-18T23:27:25.1698524+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:27:25.3492910+03:00  [INF] Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:27:25.5118975+03:00  [INF] Executed DbCommand ("46"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T23:27:25.5809327+03:00  [INF] Executed DbCommand ("41"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T23:27:25.6292997+03:00  [INF] Executed DbCommand ("41"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-18T23:27:25.7184650+03:00  [INF] Now listening on: "http://127.0.0.1:42105" (d826f4b8)
+2020-12-18T23:27:25.7193565+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-18T23:27:25.7193801+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-18T23:27:25.7193960+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-18T23:27:25.9728712+03:00 0HM53IDAKPSDD:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-18T23:27:25.9951813+03:00 0HM53IDAKPSDD:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-18T23:27:26.0036963+03:00 0HM53IDAKPSDD:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T23:27:26.0453892+03:00 0HM53IDAKPSDD:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-12-18T23:27:26.0800771+03:00 0HM53IDAKPSDD:00000001 [INF] Executed ViewResult - view "Index" executed in 34.045ms. (f66409e9)
+2020-12-18T23:27:26.0802699+03:00 0HM53IDAKPSDD:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 76.4148ms (afa2e885)
+2020-12-18T23:27:26.0805673+03:00 0HM53IDAKPSDD:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-18T23:27:26.0818554+03:00 0HM53IDAKPSDD:00000001 [INF] Request finished in 110.5291ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T23:27:26.0952152+03:00 0HM53IDAKPSDD:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css   (ca22a1cb)
+2020-12-18T23:27:26.0973788+03:00 0HM53IDAKPSDD:00000002 [INF] The file "/css/bootstrap.css" was not modified (f1f8d725)
+2020-12-18T23:27:26.0977057+03:00 0HM53IDAKPSDD:00000002 [INF] Request finished in 2.5237ms 304 text/css (791a596a)
+2020-12-18T23:27:33.3377443+03:00 0HM53IDAKPSDD:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T23:27:33.3396126+03:00 0HM53IDAKPSDD:00000003 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T23:27:33.3457657+03:00 0HM53IDAKPSDD:00000003 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T23:27:33.3655281+03:00 0HM53IDAKPSDD:00000003 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:27:33.5513945+03:00 0HM53IDAKPSDD:00000003 [INF] Executed DbCommand ("46"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:27:33.5520739+03:00 0HM53IDAKPSDD:00000003 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:27:33.7323331+03:00 0HM53IDAKPSDD:00000003 [INF] Executed DbCommand ("47"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:27:33.7381443+03:00 0HM53IDAKPSDD:00000003 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T23:27:33.7598890+03:00 0HM53IDAKPSDD:00000003 [INF] Executed ViewResult - view "Login" executed in 22.4068ms. (f66409e9)
+2020-12-18T23:27:33.7599674+03:00 0HM53IDAKPSDD:00000003 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 414.1482ms (afa2e885)
+2020-12-18T23:27:33.7600109+03:00 0HM53IDAKPSDD:00000003 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T23:27:33.7612809+03:00 0HM53IDAKPSDD:00000003 [INF] Request finished in 423.7761ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T23:27:57.1147876+03:00 0HM53IDAKPSDD:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Register   (ca22a1cb)
+2020-12-18T23:27:57.1178298+03:00 0HM53IDAKPSDD:00000004 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Register (SocialNetwork)"' (500cc934)
+2020-12-18T23:27:57.1194633+03:00 0HM53IDAKPSDD:00000004 [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Register()" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T23:27:57.1210949+03:00 0HM53IDAKPSDD:00000004 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:27:57.3031328+03:00 0HM53IDAKPSDD:00000004 [INF] Executed DbCommand ("43"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:27:57.3059598+03:00 0HM53IDAKPSDD:00000004 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:27:57.4849184+03:00 0HM53IDAKPSDD:00000004 [INF] Executed DbCommand ("43"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:27:57.4863869+03:00 0HM53IDAKPSDD:00000004 [INF] Executing ViewResult, running view "Register". (c83d0e25)
+2020-12-18T23:27:57.5122270+03:00 0HM53IDAKPSDD:00000004 [INF] Executed ViewResult - view "Register" executed in 26.5682ms. (f66409e9)
+2020-12-18T23:27:57.5122935+03:00 0HM53IDAKPSDD:00000004 [INF] Executed action "SocialNetwork.Controllers.AccountController.Register (SocialNetwork)" in 392.7884ms (afa2e885)
+2020-12-18T23:27:57.5123257+03:00 0HM53IDAKPSDD:00000004 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Register (SocialNetwork)"' (99874f2b)
+2020-12-18T23:27:57.5124488+03:00 0HM53IDAKPSDD:00000004 [INF] Request finished in 397.788ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T23:31:43.6392874+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:31:44.3933005+03:00  [INF] Executed DbCommand ("53"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:31:44.4081077+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-18T23:31:44.4101416+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:31:44.6317905+03:00  [INF] Executed DbCommand ("45"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:31:44.7966906+03:00  [INF] Executed DbCommand ("48"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T23:31:44.8678804+03:00  [INF] Executed DbCommand ("43"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-18T23:31:44.9198300+03:00  [INF] Executed DbCommand ("44"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-18T23:31:45.0138248+03:00  [INF] Now listening on: "http://127.0.0.1:19771" (d826f4b8)
+2020-12-18T23:31:45.0148385+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-18T23:31:45.0148644+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-18T23:31:45.0148803+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-18T23:31:45.1895978+03:00 0HM53IFNSSDOC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-18T23:31:45.2119767+03:00 0HM53IFNSSDOC:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-18T23:31:45.2210140+03:00 0HM53IFNSSDOC:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T23:31:45.2647856+03:00 0HM53IFNSSDOC:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-12-18T23:31:45.2987210+03:00 0HM53IFNSSDOC:00000001 [INF] Executed ViewResult - view "Index" executed in 33.1636ms. (f66409e9)
+2020-12-18T23:31:45.2989270+03:00 0HM53IFNSSDOC:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 77.7574ms (afa2e885)
+2020-12-18T23:31:45.2992512+03:00 0HM53IFNSSDOC:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-18T23:31:45.3006534+03:00 0HM53IFNSSDOC:00000001 [INF] Request finished in 112.7029ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T23:31:45.3107123+03:00 0HM53IFNSSDOC:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css   (ca22a1cb)
+2020-12-18T23:31:45.3185821+03:00 0HM53IFNSSDOC:00000002 [INF] Sending file. Request path: '"/css/bootstrap.css"'. Physical path: '"C:\Users\Arter\ASP\SocialNetwork\SocialNetwork\wwwroot\css\bootstrap.css"' (27b0a520)
+2020-12-18T23:31:45.3186939+03:00 0HM53IFNSSDOC:00000002 [INF] Request finished in 7.9979ms 200 text/css (791a596a)
+2020-12-18T23:31:47.6418657+03:00 0HM53IFNSSDOC:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T23:31:47.6435432+03:00 0HM53IFNSSDOC:00000003 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T23:31:47.6498069+03:00 0HM53IFNSSDOC:00000003 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T23:31:47.6699909+03:00 0HM53IFNSSDOC:00000003 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:31:47.8508041+03:00 0HM53IFNSSDOC:00000003 [INF] Executed DbCommand ("46"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:31:47.8514961+03:00 0HM53IFNSSDOC:00000003 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:31:48.0382612+03:00 0HM53IFNSSDOC:00000003 [INF] Executed DbCommand ("46"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:31:48.0442980+03:00 0HM53IFNSSDOC:00000003 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T23:31:48.0663928+03:00 0HM53IFNSSDOC:00000003 [INF] Executed ViewResult - view "Login" executed in 22.7732ms. (f66409e9)
+2020-12-18T23:31:48.0664837+03:00 0HM53IFNSSDOC:00000003 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 416.617ms (afa2e885)
+2020-12-18T23:31:48.0665191+03:00 0HM53IFNSSDOC:00000003 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T23:31:48.0675191+03:00 0HM53IFNSSDOC:00000003 [INF] Request finished in 425.9971ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T23:31:48.0774528+03:00 0HM53IFNSSDOC:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css   (ca22a1cb)
+2020-12-18T23:31:48.0779047+03:00 0HM53IFNSSDOC:00000004 [INF] The file "/css/bootstrap.css" was not modified (f1f8d725)
+2020-12-18T23:31:48.0781101+03:00 0HM53IFNSSDOC:00000004 [INF] Request finished in 0.7063ms 304 text/css (791a596a)
+2020-12-18T23:31:50.7849049+03:00 0HM53IFNSSDOC:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Register   (ca22a1cb)
+2020-12-18T23:31:50.7884340+03:00 0HM53IFNSSDOC:00000005 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Register (SocialNetwork)"' (500cc934)
+2020-12-18T23:31:50.7898853+03:00 0HM53IFNSSDOC:00000005 [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Register()" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T23:31:50.7914877+03:00 0HM53IFNSSDOC:00000005 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:31:50.9823857+03:00 0HM53IFNSSDOC:00000005 [INF] Executed DbCommand ("45"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:31:50.9850891+03:00 0HM53IFNSSDOC:00000005 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:31:51.1747804+03:00 0HM53IFNSSDOC:00000005 [INF] Executed DbCommand ("45"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:31:51.1758614+03:00 0HM53IFNSSDOC:00000005 [INF] Executing ViewResult, running view "Register". (c83d0e25)
+2020-12-18T23:31:51.2020576+03:00 0HM53IFNSSDOC:00000005 [INF] Executed ViewResult - view "Register" executed in 26.7592ms. (f66409e9)
+2020-12-18T23:31:51.2021343+03:00 0HM53IFNSSDOC:00000005 [INF] Executed action "SocialNetwork.Controllers.AccountController.Register (SocialNetwork)" in 412.2113ms (afa2e885)
+2020-12-18T23:31:51.2021721+03:00 0HM53IFNSSDOC:00000005 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Register (SocialNetwork)"' (99874f2b)
+2020-12-18T23:31:51.2023208+03:00 0HM53IFNSSDOC:00000005 [INF] Request finished in 417.6028ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T23:31:51.2143872+03:00 0HM53IFNSSDOC:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css   (ca22a1cb)
+2020-12-18T23:31:51.2148186+03:00 0HM53IFNSSDOC:00000006 [INF] The file "/css/bootstrap.css" was not modified (f1f8d725)
+2020-12-18T23:31:51.2149052+03:00 0HM53IFNSSDOC:00000006 [INF] Request finished in 0.5814ms 304 text/css (791a596a)
+2020-12-18T23:31:58.0173981+03:00 0HM53IFNSSDOC:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T23:31:58.0180822+03:00 0HM53IFNSSDOC:00000007 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T23:31:58.0183361+03:00 0HM53IFNSSDOC:00000007 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T23:31:58.0188994+03:00 0HM53IFNSSDOC:00000007 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:31:58.2088685+03:00 0HM53IFNSSDOC:00000007 [INF] Executed DbCommand ("46"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:31:58.2109551+03:00 0HM53IFNSSDOC:00000007 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:31:58.4366452+03:00 0HM53IFNSSDOC:00000007 [INF] Executed DbCommand ("45"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:31:58.4385974+03:00 0HM53IFNSSDOC:00000007 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T23:31:58.4403649+03:00 0HM53IFNSSDOC:00000007 [INF] Executed ViewResult - view "Login" executed in 1.8747ms. (f66409e9)
+2020-12-18T23:31:58.4404146+03:00 0HM53IFNSSDOC:00000007 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 422.0423ms (afa2e885)
+2020-12-18T23:31:58.4404462+03:00 0HM53IFNSSDOC:00000007 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T23:31:58.4405630+03:00 0HM53IFNSSDOC:00000007 [INF] Request finished in 423.285ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T23:31:58.4536940+03:00 0HM53IFNSSDOC:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css   (ca22a1cb)
+2020-12-18T23:31:58.4541307+03:00 0HM53IFNSSDOC:00000008 [INF] The file "/css/bootstrap.css" was not modified (f1f8d725)
+2020-12-18T23:31:58.4542211+03:00 0HM53IFNSSDOC:00000008 [INF] Request finished in 0.5759ms 304 text/css (791a596a)
+2020-12-18T23:32:09.0093163+03:00 0HM53IFNSSDOC:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Register   (ca22a1cb)
+2020-12-18T23:32:09.0101869+03:00 0HM53IFNSSDOC:00000009 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Register (SocialNetwork)"' (500cc934)
+2020-12-18T23:32:09.0105110+03:00 0HM53IFNSSDOC:00000009 [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Register()" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T23:32:09.0114482+03:00 0HM53IFNSSDOC:00000009 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:32:09.1945998+03:00 0HM53IFNSSDOC:00000009 [INF] Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:32:09.1953071+03:00 0HM53IFNSSDOC:00000009 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:32:09.3800292+03:00 0HM53IFNSSDOC:00000009 [INF] Executed DbCommand ("46"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:32:09.3804950+03:00 0HM53IFNSSDOC:00000009 [INF] Executing ViewResult, running view "Register". (c83d0e25)
+2020-12-18T23:32:09.3829268+03:00 0HM53IFNSSDOC:00000009 [INF] Executed ViewResult - view "Register" executed in 2.5223ms. (f66409e9)
+2020-12-18T23:32:09.3829839+03:00 0HM53IFNSSDOC:00000009 [INF] Executed action "SocialNetwork.Controllers.AccountController.Register (SocialNetwork)" in 372.3961ms (afa2e885)
+2020-12-18T23:32:09.3830129+03:00 0HM53IFNSSDOC:00000009 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Register (SocialNetwork)"' (99874f2b)
+2020-12-18T23:32:09.3831357+03:00 0HM53IFNSSDOC:00000009 [INF] Request finished in 373.9031ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T23:32:09.3958794+03:00 0HM53IFNSSDOC:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css   (ca22a1cb)
+2020-12-18T23:32:09.3962939+03:00 0HM53IFNSSDOC:0000000A [INF] The file "/css/bootstrap.css" was not modified (f1f8d725)
+2020-12-18T23:32:09.3963802+03:00 0HM53IFNSSDOC:0000000A [INF] Request finished in 0.5487ms 304 text/css (791a596a)
+2020-12-18T23:32:30.1450793+03:00 0HM53IFNSSDOC:0000000B [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Register   (ca22a1cb)
+2020-12-18T23:32:30.1459576+03:00 0HM53IFNSSDOC:0000000B [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Register (SocialNetwork)"' (500cc934)
+2020-12-18T23:32:30.1462797+03:00 0HM53IFNSSDOC:0000000B [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Register()" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T23:32:30.1472812+03:00 0HM53IFNSSDOC:0000000B [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:32:30.3325675+03:00 0HM53IFNSSDOC:0000000B [INF] Executed DbCommand ("45"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:32:30.3334844+03:00 0HM53IFNSSDOC:0000000B [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:32:30.5264147+03:00 0HM53IFNSSDOC:0000000B [INF] Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:32:30.5269478+03:00 0HM53IFNSSDOC:0000000B [INF] Executing ViewResult, running view "Register". (c83d0e25)
+2020-12-18T23:32:30.5326676+03:00 0HM53IFNSSDOC:0000000B [INF] Executed ViewResult - view "Register" executed in 5.8054ms. (f66409e9)
+2020-12-18T23:32:30.5327693+03:00 0HM53IFNSSDOC:0000000B [INF] Executed action "SocialNetwork.Controllers.AccountController.Register (SocialNetwork)" in 386.402ms (afa2e885)
+2020-12-18T23:32:30.5328189+03:00 0HM53IFNSSDOC:0000000B [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Register (SocialNetwork)"' (99874f2b)
+2020-12-18T23:32:30.5330586+03:00 0HM53IFNSSDOC:0000000B [INF] Request finished in 388.0676ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T23:32:30.5511581+03:00 0HM53IFNSSDOC:0000000C [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css   (ca22a1cb)
+2020-12-18T23:32:30.5517276+03:00 0HM53IFNSSDOC:0000000C [INF] The file "/css/bootstrap.css" was not modified (f1f8d725)
+2020-12-18T23:32:30.5519499+03:00 0HM53IFNSSDOC:0000000C [INF] Request finished in 0.7978ms 304 text/css (791a596a)
+2020-12-18T23:52:43.7446959+03:00 0HM53IFNSSDOD:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-18T23:52:43.7455003+03:00 0HM53IFNSSDOD:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-18T23:52:43.7457151+03:00 0HM53IFNSSDOD:00000001 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-18T23:52:43.7464364+03:00 0HM53IFNSSDOD:00000001 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:52:44.0759589+03:00 0HM53IFNSSDOD:00000001 [INF] Executed DbCommand ("49"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:52:44.0763358+03:00 0HM53IFNSSDOD:00000001 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-18T23:52:44.2858594+03:00 0HM53IFNSSDOD:00000001 [INF] Executed DbCommand ("53"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-18T23:52:44.2873120+03:00 0HM53IFNSSDOD:00000001 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-18T23:52:44.2892631+03:00 0HM53IFNSSDOD:00000001 [INF] Executed ViewResult - view "Login" executed in 2.7405ms. (f66409e9)
+2020-12-18T23:52:44.2893160+03:00 0HM53IFNSSDOD:00000001 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 543.5709ms (afa2e885)
+2020-12-18T23:52:44.2893444+03:00 0HM53IFNSSDOD:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-18T23:52:44.2894650+03:00 0HM53IFNSSDOD:00000001 [INF] Request finished in 544.8771ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-18T23:52:44.3010022+03:00 0HM53IFNSSDOD:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/css/bootstrap.css   (ca22a1cb)
+2020-12-18T23:52:44.3014289+03:00 0HM53IFNSSDOD:00000002 [INF] The file "/css/bootstrap.css" was not modified (f1f8d725)
+2020-12-18T23:52:44.3015063+03:00 0HM53IFNSSDOD:00000002 [INF] Request finished in 0.5515ms 304 text/css (791a596a)

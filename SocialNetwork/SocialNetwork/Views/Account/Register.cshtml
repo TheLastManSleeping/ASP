@@ -1,0 +1,70 @@
+﻿@model SocialNetwork.ViewModels.RegisterViewModel
+
+<h2>Регистрация нового пользователя</h2>
+<form method="post" asp-controller="Account" asp-action="Register" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly"></div>
+    <div>
+        <label asp-for="UserName"></label><br />
+        <input asp-for="UserName" />
+        <span asp-validation-for="UserName"></span>
+    </div>
+    <div>
+        <label asp-for="Name"></label><br />
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div>
+        <label asp-for="Surname"></label><br />
+        <input asp-for="Surname" />
+        <span asp-validation-for="Surname"></span>
+    </div>
+    <div>
+        <label asp-for="Email"></label><br />
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div>
+        <label asp-for="BirthDay" ></label><br />
+        <input asp-for="BirthDay" id="datepicker" type="text" value="@DateTime.Now.Date.ToString("yyyy-MM-dd")" />
+        <span asp-validation-for="BirthDay"></span>
+    </div>
+    <div>
+        <label asp-for="Gender"></label><br />
+        <input asp-for="Gender" />
+        <span asp-validation-for="Gender"></span>
+    </div>
+    <div>
+        <label asp-for="Country"></label><br />
+        <input asp-for="Country" />
+        <span asp-validation-for="Country"></span>
+    </div>
+        <div>
+            <label asp-for="Photo"></label><br />
+            <input asp-for="Photo" type="file"/>
+            <span asp-validation-for="Photo"></span>
+        </div>
+    <div>
+        <label asp-for="Password"></label><br />
+        <input asp-for="Password" />
+        <span asp-validation-for="Password"></span>
+    </div>
+    <div>
+        <label asp-for="PasswordConfirm"></label><br />
+        <input asp-for="PasswordConfirm" />
+        <span asp-validation-for="PasswordConfirm"></span>
+    </div>
+    <div>
+        <input type="submit" value="Регистрация" />
+    </div>
+</form>
+
+
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+    $(function () {
+        $("#datepicker").datepicker();
+    });
+</script>

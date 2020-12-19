@@ -1,0 +1,68 @@
+﻿
+@using System.Security.Claims
+@{
+    ViewBag.Title = "Друзья";
+}
+
+@if (ViewBag.Friends != null)
+{
+    <a>Друзья</a>
+
+    <table class="table">
+        @foreach (var friend in ViewBag.Friends)
+        {
+
+            @if (@friend.IdUser == @User.FindFirstValue(ClaimTypes.NameIdentifier))
+            {
+                <tr>
+                    <td>
+                        <form>
+
+                            <a class="btn btn-sm btn-primary" asp-action="UserPage" asp-route-id="@friend.FriendId">@friend.FriendName</a>
+                            <a class="btn btn-sm btn-primary" asp-action="DeleteFriend" asp-route-id="@friend.FriendId">Удалить из друзей</a>
+                            <a class="btn btn-sm btn-primary" href="/Dialogs/Index?id=@friend.FriendId">Открыть переписку</a>
+                            
+                        </form>
+                    </td>
+                    </tr>
+            }
+        }
+    </table>
+}
+
+
+<a>Возможные друзья</a>
+ 
+<table class="table">
+    @foreach (var user in ViewBag.Users)
+    {
+        ViewBag.Flag = true;
+        @if (@user.Id != @User.FindFirstValue(ClaimTypes.NameIdentifier))
+        {
+            @foreach (var friend in ViewBag.Friends)
+            {
+
+                @if (@friend.FriendId == @user.Id && @User.FindFirstValue(ClaimTypes.NameIdentifier) == @friend.IdUser)
+                {
+                    ViewBag.Flag = false;
+                    break;
+                }
+            }
+            @if (ViewBag.Flag == false)
+            {
+                continue;
+            }
+            <tr>
+                <td>
+                    <form>
+                        <a class="btn btn-sm btn-primary" asp-action="UserPage" asp-route-id="@user.Id">@user.UserName</a>
+                        <a class="btn btn-sm btn-primary" asp-action="AddFriend" asp-route-id="@user.Id">Добавить в друзья</a>
+                        <a class="btn btn-sm btn-primary" href="/Dialogs/Index?id=@user.Id">Открыть переписку</a>
+
+                    </form>
+                </td>
+            </tr>
+        }
+        
+    }
+</table>

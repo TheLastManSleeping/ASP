@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Arter\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Arter\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_SocialNetwork.944369885.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Arter\AppData\Roaming\JetBrains\Rider2020.2\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Arter\AppData\Roaming\JetBrains\Rider2020.2\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Arter\ASP\SocialNetwork" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="SocialNetwork" t="IncludeRecursive">
+        <e p="AllowedExtensions.cs" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ChatHub.cs" t="Include" />
+        <e p="Config.cs" t="Include" />
+        <e p="Context.cs" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
+          <e p="DialogsController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+          <e p="RolesController.cs" t="Include" />
+          <e p="UserController.cs" t="Include" />
+        </e>
+        <e p="EmailService.cs" t="Include" />
+        <e p="IImageService.cs" t="Include" />
+        <e p="ImageService.cs" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20201213125825_'name'.cs" t="Include" />
+          <e p="20201213125825_'name'.Designer.cs" t="Include" />
+          <e p="ApplicationContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Dialog.cs" t="Include" />
+          <e p="Friend.cs" t="Include" />
+          <e p="Message.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="SocialNetwork.AssemblyInfo.cs" t="Include" />
+              <e p="SocialNetwork.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="DialogRepository.cs" t="Include" />
+          <e p="ErrorRepository.cs" t="Include" />
+          <e p="FriendRepository.cs" t="Include" />
+          <e p="IError.cs" t="Include" />
+          <e p="IRepository.cs" t="Include" />
+          <e p="MessageRepository.cs" t="Include" />
+        </e>
+        <e p="RoleInitializer.cs" t="Include" />
+        <e p="SocialNetwork.csproj" t="IncludeRecursive" />
+        <e p="Startup.cs" t="Include" />
+        <e p="ViewModels" t="Include">
+          <e p="ChangePasswordViewModel.cs" t="Include" />
+          <e p="ChangeRoleViewModel.cs" t="Include" />
+          <e p="CreateUserViewModel.cs" t="Include" />
+          <e p="EditUserViewModel.cs" t="Include" />
+          <e p="ForgotPasswordViewModel.cs" t="Include" />
+          <e p="LoginViewModel.cs" t="Include" />
+          <e p="RegisterViewModel.cs" t="Include" />
+          <e p="ResetPasswordViewModel.cs" t="Include" />
+          <e p="UserViewModel.cs" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Account" t="Include">
+            <e p="Error.cshtml" t="Include" />
+            <e p="ForgotPassword.cshtml" t="Include" />
+            <e p="ForgotPasswordConfirmation.cshtml" t="Include" />
+            <e p="Login.cshtml" t="Include" />
+            <e p="Register.cshtml" t="Include" />
+            <e p="ResetPassword.cshtml" t="Include" />
+            <e p="ResetPasswordConfirmation.cshtml" t="Include" />
+          </e>
+          <e p="Dialogs" t="Include">
+            <e p="Dialogs.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Roles" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="UserList.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+          </e>
+          <e p="User" t="Include">
+            <e p="ChangePassword.cshtml" t="Include" />
+            <e p="Create.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Friends.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="UserPage.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="bootstrap.css" t="Include" />
+          </e>
+          <e p="Files" t="Include" />
+          <e p="fonts" t="Include">
+            <e p="fontawesome-webfont.eot" t="Include" />
+            <e p="fontawesome-webfont.svg" t="Include" />
+            <e p="fontawesome-webfont.ttf" t="Include" />
+            <e p="fontawesome-webfont.woff" t="Include" />
+            <e p="fontawesome-webfont.woff2" t="Include" />
+            <e p="FontAwesome.otf" t="Include" />
+          </e>
+          <e p="images" t="Include">
+            <e p="about.jpg" t="Include" />
+            <e p="banner.jpg" t="Include" />
+            <e p="d1.jpg" t="Include" />
+            <e p="images.jpeg" t="Include" />
+            <e p="img7.jpg" t="Include" />
+            <e p="s1.jpg" t="Include" />
+            <e p="s2.jpg" t="Include" />
+            <e p="s3.jpg" t="Include" />
+            <e p="s4.jpg" t="Include" />
+            <e p="s5.jpg" t="Include" />
+            <e p="s6.jpg" t="Include" />
+            <e p="s7.jpg" t="Include" />
+            <e p="s8.jpg" t="Include" />
+            <e p="s9.jpg" t="Include" />
+            <e p="star-off-big.png" t="Include" />
+            <e p="star-on-big.png" t="Include" />
+            <e p="te1.jpg" t="Include" />
+            <e p="te2.jpg" t="Include" />
+            <e p="te3.jpg" t="Include" />
+            <e p="team.jpg" t="Include" />
+            <e p="team1.jpg" t="Include" />
+            <e p="team2.jpg" t="Include" />
+          </e>
+          <e p="img" t="Include">
+            <e p="profile" t="Include">
+              <e p="30b494bc-f08b-4276-a1e1-a372400a7da0_Tt29BvrAK5w.jpg" t="Include" />
+              <e p="86cb8957-859f-421f-8874-a269df22c0e3_Tt29BvrAK5w.jpg" t="Include" />
+            </e>
+          </e>
+          <e p="Logs" t="Include">
+            <e p="All-20201213.log" t="Include" />
+            <e p="All-20201214.log" t="Include" />
+            <e p="All-20201218.log" t="Include" />
+            <e p="All-20201219.log" t="Include" />
+            <e p="Error-20201213.log" t="Include" />
+            <e p="Error-20201214.log" t="Include" />
+            <e p="Error-20201218.log" t="Include" />
+            <e p="Error-20201219.log" t="Include" />
+          </e>
+          <e p="single-post-pic.jpg" t="Include" />
+          <e p="single-post-pic2.jpg" t="Include" />
+        </e>
+      </e>
+      <e p="SocialNetwork.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

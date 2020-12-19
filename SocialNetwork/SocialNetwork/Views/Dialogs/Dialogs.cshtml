@@ -1,0 +1,30 @@
+﻿@using System.Security.Claims
+<a>Переписки</a>
+ 
+<table class="table">
+    @if (@ViewBag.dialogs != null)
+    {
+        @foreach (var dialog in ViewBag.dialogs)
+        {
+            @if (@dialog.UserId == @User.FindFirstValue(ClaimTypes.NameIdentifier))
+            {
+                @foreach (var user in ViewBag.Users)
+                {
+                    if (@dialog.FriendId == user.Id)
+                    {
+
+                        <tr>
+                            <td>
+                                <form>
+                                    <a class="btn btn-sm btn-primary" href="/Dialogs/Index?id=@dialog.FriendId">@user.UserName</a>
+
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                }
+            }
+
+        }
+    }
+</table>

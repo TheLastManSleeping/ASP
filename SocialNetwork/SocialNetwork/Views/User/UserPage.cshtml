@@ -1,0 +1,102 @@
+﻿@using System.Security.Claims
+@model SocialNetwork.ViewModels.UserInfoViewModel
+<body>
+@if (@Model.BirthDay != null || @Model.Country != null || @Model.Email != null)
+{
+    <div class="info-section full-width">
+        @{
+            <div class="image d-flex justify-content-center">
+                <img src="~/img/profile/@Model.Photo" alt="" class="" style="width:100px;height:100px;">
+            </div>
+            if (@Model.UserName != null)
+            {
+                <div class="row info-row">
+                    <div class="col-lg-4 col-md-5 col-sm-6 info-name">
+                        Псевдоним:
+                    </div>
+                    <div class="col-lg-8 col-md-7 col-sm-6 info-value">
+                        @Model.UserName
+                    </div>
+                </div>
+            }
+            if (@Model.Name != null)
+            {
+                <div class="row info-row">
+                    <div class="col-lg-4 col-md-5 col-sm-6 info-name">
+                        Имя:
+                    </div>
+                    <div class="col-lg-8 col-md-7 col-sm-6 info-value">
+                        @Model.Name
+                    </div>
+                </div>
+            }
+            if (@Model.Surname != null)
+            {
+                <div class="row info-row">
+                    <div class="col-lg-4 col-md-5 col-sm-6 info-name">
+                        Фамилия:
+                    </div>
+                    <div class="col-lg-8 col-md-7 col-sm-6 info-value">
+                        @Model.Surname
+                    </div>
+                </div>
+            }
+            if (@Model.Gender != null)
+            {
+                <div class="row info-row">
+                    <div class="col-lg-4 col-md-5 col-sm-6 info-name">
+                        Пол:
+                    </div>
+                    <div class="col-lg-8 col-md-7 col-sm-6 info-value">
+                        @Model.Gender
+                    </div>
+                </div>
+            }
+            if (@Model.BirthDay != null)
+            {
+                <div class="row info-row">
+                    <div class="col-lg-4 col-md-5 col-sm-6 info-name">
+                        Дата рождения:
+                    </div>
+                    <div class="col-lg-8 col-md-7 col-sm-6 info-value">
+                        @Model.BirthDay
+                    </div>
+                </div>
+            }
+
+            if (@Model.Country != null)
+            {
+                <div class="row info-row">
+                    <div class="col-lg-4 col-md-5 col-sm-6 info-name">
+                        Страна:
+                    </div>
+                    <div class="col-lg-8 col-md-7 col-sm-6 info-value">
+                        @Model.Country
+                    </div>
+                </div>
+            }
+
+            if (@Model.Email != null)
+            {
+                <div class="row info-row">
+                    <div class="col-lg-4 col-md-5 col-sm-6 info-name">
+                        Электронная почта:
+                    </div>
+                    <div class="col-lg-8 col-md-7 col-sm-6 info-value">
+                        @Model.Email
+                    </div>
+                </div>
+            }
+
+        }
+        
+    </div>
+}
+@if (@Model.Id == @User.FindFirstValue(ClaimTypes.NameIdentifier))
+{
+    <form method="post" asp-controller="Account" asp-action="LogOff">
+        <input type="submit" value="Выход"/>
+    </form>
+    
+}
+</body>

@@ -1,0 +1,1249 @@
+2020-12-13T21:45:29.0094313+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T21:45:29.7122911+03:00  [INF] Executed DbCommand ("47"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T21:45:29.7272308+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-13T21:45:29.7293524+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T21:45:29.8794205+03:00  [INF] Executed DbCommand ("38"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T21:45:30.0463239+03:00  [INF] Executed DbCommand ("41"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-13T21:45:30.1103440+03:00  [INF] Executed DbCommand ("36"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-13T21:45:30.1528006+03:00  [INF] Executed DbCommand ("35"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-13T21:45:30.2442625+03:00  [INF] Now listening on: "http://127.0.0.1:13581" (d826f4b8)
+2020-12-13T21:45:30.2451773+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-13T21:45:30.2452005+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-13T21:45:30.2452169+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-13T21:45:30.5067000+03:00 0HM4VIT2247V3:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-13T21:45:30.5295728+03:00 0HM4VIT2247V3:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-13T21:45:30.5382614+03:00 0HM4VIT2247V3:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T21:45:30.5800870+03:00 0HM4VIT2247V3:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-12-13T21:45:30.6095824+03:00 0HM4VIT2247V3:00000001 [INF] Executed ViewResult - view "Index" executed in 28.4743ms. (f66409e9)
+2020-12-13T21:45:30.6097793+03:00 0HM4VIT2247V3:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 71.3672ms (afa2e885)
+2020-12-13T21:45:30.6100864+03:00 0HM4VIT2247V3:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-13T21:45:30.6113714+03:00 0HM4VIT2247V3:00000001 [INF] Request finished in 106.2458ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-13T22:00:16.1169361+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:00:16.7865049+03:00  [INF] Executed DbCommand ("43"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:00:16.8025245+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-13T22:00:16.8045710+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:00:16.9523138+03:00  [INF] Executed DbCommand ("37"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:00:17.1114624+03:00  [INF] Executed DbCommand ("40"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-13T22:00:17.1784380+03:00  [INF] Executed DbCommand ("38"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-13T22:00:17.2219453+03:00  [INF] Executed DbCommand ("36"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-13T22:00:17.3120981+03:00  [INF] Now listening on: "http://127.0.0.1:21234" (d826f4b8)
+2020-12-13T22:00:17.3129922+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-13T22:00:17.3130183+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-13T22:00:17.3130301+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-13T22:00:17.3523300+03:00 0HM4VJ5ABNPCC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-13T22:00:17.3755907+03:00 0HM4VJ5ABNPCC:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-13T22:00:17.3845820+03:00 0HM4VJ5ABNPCC:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T22:00:17.3936700+03:00 0HM4VJ5ABNPCC:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 5.9835ms (afa2e885)
+2020-12-13T22:00:17.3943415+03:00 0HM4VJ5ABNPCC:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-13T22:00:17.4094239+03:00 0HM4VJ5ABNPCC:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Unable to resolve service for type 'SocialNetwork.Repositories.ErrorRepository' while attempting to activate 'SocialNetwork.Controllers.HomeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-12-13T22:00:17.4224673+03:00 0HM4VJ5ABNPCC:00000001 [INF] Request finished in 71.7462ms 500 text/html; charset=utf-8 (791a596a)
+2020-12-13T22:02:50.8926873+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:02:51.5777780+03:00  [INF] Executed DbCommand ("42"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:02:51.5926928+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-13T22:02:51.5945110+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:02:51.7320428+03:00  [INF] Executed DbCommand ("35"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:02:51.8903040+03:00  [INF] Executed DbCommand ("41"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-13T22:02:51.9514680+03:00  [INF] Executed DbCommand ("34"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-13T22:02:51.9965005+03:00  [INF] Executed DbCommand ("37"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-13T22:02:52.0867347+03:00  [INF] Now listening on: "http://127.0.0.1:11937" (d826f4b8)
+2020-12-13T22:02:52.0876340+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-13T22:02:52.0876567+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-13T22:02:52.0876665+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-13T22:02:52.2018049+03:00 0HM4VJ6OGGDRR:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-13T22:02:52.2241193+03:00 0HM4VJ6OGGDRR:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-13T22:02:52.2327728+03:00 0HM4VJ6OGGDRR:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T22:02:52.2367025+03:00 0HM4VJ6OGGDRR:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 0.9167ms (afa2e885)
+2020-12-13T22:02:52.2372619+03:00 0HM4VJ6OGGDRR:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-13T22:02:52.2519895+03:00 0HM4VJ6OGGDRR:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Unable to resolve service for type 'SocialNetwork.Repositories.ErrorRepository' while attempting to activate 'SocialNetwork.Controllers.HomeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-12-13T22:02:52.2664804+03:00 0HM4VJ6OGGDRR:00000001 [INF] Request finished in 66.1328ms 500 text/html; charset=utf-8 (791a596a)
+2020-12-13T22:05:03.9238722+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:05:04.6344947+03:00  [INF] Executed DbCommand ("43"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:05:04.6961323+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-13T22:05:04.7015333+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:05:04.8565926+03:00  [INF] Executed DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:05:05.0290266+03:00  [INF] Executed DbCommand ("43"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-13T22:05:05.0970630+03:00  [INF] Executed DbCommand ("38"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-13T22:05:05.1463052+03:00  [INF] Executed DbCommand ("41"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-13T22:05:05.5183183+03:00  [INF] Now listening on: "http://127.0.0.1:11018" (d826f4b8)
+2020-12-13T22:05:05.5213804+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-13T22:05:05.5224531+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-13T22:05:05.5235913+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-13T22:05:05.6517872+03:00 0HM4VJ8095RQG:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-13T22:05:05.6517885+03:00 0HM4VJ8095RQF:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:43724/  0 (ca22a1cb)
+2020-12-13T22:05:05.6749058+03:00 0HM4VJ8095RQF:00000001 [INF] Request finished in 23.15ms 200  (791a596a)
+2020-12-13T22:05:05.7225712+03:00 0HM4VJ8095RQG:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-13T22:05:05.7339228+03:00 0HM4VJ8095RQG:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T22:05:05.7378292+03:00 0HM4VJ8095RQG:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 1.5864ms (afa2e885)
+2020-12-13T22:05:05.7387119+03:00 0HM4VJ8095RQG:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-13T22:05:05.7853308+03:00 0HM4VJ8095RQG:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Unable to resolve service for type 'SocialNetwork.Repositories.ErrorRepository' while attempting to activate 'SocialNetwork.Controllers.HomeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-12-13T22:05:05.8211088+03:00 0HM4VJ8095RQG:00000001 [INF] Request finished in 170.3895ms 500 text/html; charset=utf-8 (791a596a)
+2020-12-13T22:07:31.6323890+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:07:32.3144745+03:00  [INF] Executed DbCommand ("52"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:07:32.3289791+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-13T22:07:32.3307198+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:07:32.4832283+03:00  [INF] Executed DbCommand ("36"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:07:32.6461952+03:00  [INF] Executed DbCommand ("41"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-13T22:07:32.7150755+03:00  [INF] Executed DbCommand ("41"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-13T22:07:32.7588729+03:00  [INF] Executed DbCommand ("36"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-13T22:07:32.8485810+03:00  [INF] Now listening on: "http://127.0.0.1:7567" (d826f4b8)
+2020-12-13T22:07:32.8494760+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-13T22:07:32.8495019+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-13T22:07:32.8495118+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-13T22:07:32.9325230+03:00 0HM4VJ9C5OE77:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-13T22:07:32.9551658+03:00 0HM4VJ9C5OE77:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-13T22:07:32.9639772+03:00 0HM4VJ9C5OE77:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T22:07:33.0072273+03:00 0HM4VJ9C5OE77:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-12-13T22:07:33.0377896+03:00 0HM4VJ9C5OE77:00000001 [INF] Executed ViewResult - view "Index" executed in 29.3261ms. (f66409e9)
+2020-12-13T22:07:33.0379773+03:00 0HM4VJ9C5OE77:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 73.7486ms (afa2e885)
+2020-12-13T22:07:33.0382949+03:00 0HM4VJ9C5OE77:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-13T22:07:33.0396571+03:00 0HM4VJ9C5OE77:00000001 [INF] Request finished in 108.7931ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-13T22:09:56.5433056+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:09:57.2482049+03:00  [INF] Executed DbCommand ("48"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:09:57.2634773+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-13T22:09:57.2654839+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:09:57.4233310+03:00  [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:09:57.5861508+03:00  [INF] Executed DbCommand ("42"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-13T22:09:57.6537597+03:00  [INF] Executed DbCommand ("39"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-13T22:09:57.7018809+03:00  [INF] Executed DbCommand ("40"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-13T22:09:57.7920233+03:00  [INF] Now listening on: "http://127.0.0.1:42014" (d826f4b8)
+2020-12-13T22:09:57.7929126+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-13T22:09:57.7929365+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-13T22:09:57.7929522+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-13T22:09:58.0577210+03:00 0HM4VJANDP1OC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-13T22:09:58.0806988+03:00 0HM4VJANDP1OC:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-13T22:09:58.0899092+03:00 0HM4VJANDP1OC:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T22:09:58.1332423+03:00 0HM4VJANDP1OC:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-12-13T22:09:58.1638830+03:00 0HM4VJANDP1OC:00000001 [INF] Executed ViewResult - view "Index" executed in 29.5742ms. (f66409e9)
+2020-12-13T22:09:58.1640909+03:00 0HM4VJANDP1OC:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 74.0224ms (afa2e885)
+2020-12-13T22:09:58.1644053+03:00 0HM4VJANDP1OC:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-13T22:09:58.1656479+03:00 0HM4VJANDP1OC:00000001 [INF] Request finished in 109.6341ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-13T22:09:59.3447721+03:00 0HM4VJANDP1OC:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/Login   (ca22a1cb)
+2020-12-13T22:09:59.3462121+03:00 0HM4VJANDP1OC:00000002 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-13T22:09:59.3520299+03:00 0HM4VJANDP1OC:00000002 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login(System.String)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T22:09:59.3728024+03:00 0HM4VJANDP1OC:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:09:59.5199945+03:00 0HM4VJANDP1OC:00000002 [INF] Executed DbCommand ("38"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:09:59.5208951+03:00 0HM4VJANDP1OC:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:09:59.6676792+03:00 0HM4VJANDP1OC:00000002 [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:09:59.6740669+03:00 0HM4VJANDP1OC:00000002 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-12-13T22:09:59.6966820+03:00 0HM4VJANDP1OC:00000002 [INF] Executed ViewResult - view "Login" executed in 23.2947ms. (f66409e9)
+2020-12-13T22:09:59.6967573+03:00 0HM4VJANDP1OC:00000002 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 344.6797ms (afa2e885)
+2020-12-13T22:09:59.6967948+03:00 0HM4VJANDP1OC:00000002 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-13T22:09:59.6978060+03:00 0HM4VJANDP1OC:00000002 [INF] Request finished in 353.1779ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-13T22:09:59.7130385+03:00 0HM4VJANDP1OC:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/bootstrap.css   (ca22a1cb)
+2020-12-13T22:09:59.7135794+03:00 0HM4VJANDP1OD:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/font-awesome.css   (ca22a1cb)
+2020-12-13T22:09:59.7136852+03:00 0HM4VJANDP1OE:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/Account/css/style.css   (ca22a1cb)
+2020-12-13T22:09:59.7166674+03:00 0HM4VJANDP1OD:00000001 [INF] Request finished in 3.0917ms 404  (791a596a)
+2020-12-13T22:09:59.7166679+03:00 0HM4VJANDP1OE:00000001 [INF] Request finished in 2.9731ms 404  (791a596a)
+2020-12-13T22:09:59.7166691+03:00 0HM4VJANDP1OC:00000003 [INF] Request finished in 3.7039ms 404  (791a596a)
+2020-12-13T22:10:09.9537603+03:00 0HM4VJANDP1OE:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:44365/Account/Login application/x-www-form-urlencoded 242 (ca22a1cb)
+2020-12-13T22:10:09.9544782+03:00 0HM4VJANDP1OE:00000002 [INF] Executing endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (500cc934)
+2020-12-13T22:10:09.9606589+03:00 0HM4VJANDP1OE:00000002 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SocialNetwork.ViewModels.LoginViewModel)" on controller "SocialNetwork.Controllers.AccountController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T22:10:09.9649662+03:00 0HM4VJANDP1OE:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:10.1177267+03:00 0HM4VJANDP1OE:00000002 [INF] Executed DbCommand ("38"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:10.1203952+03:00 0HM4VJANDP1OE:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:10.2772755+03:00 0HM4VJANDP1OE:00000002 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:10.3295453+03:00 0HM4VJANDP1OE:00000002 [INF] Executed DbCommand ("39"ms) [Parameters=["@__normalizedUserName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedUserName\" = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2020-12-13T22:10:10.3697919+03:00 0HM4VJANDP1OE:00000002 [INF] Executed DbCommand ("38"ms) [Parameters=["@__normalizedUserName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedUserName\" = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2020-12-13T22:10:10.4386043+03:00 0HM4VJANDP1OE:00000002 [INF] Executed DbCommand ("37"ms) [Parameters=["@__user_Id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ClaimType\", a.\"ClaimValue\", a.\"UserId\"
+FROM \"AspNetUserClaims\" AS a
+WHERE a.\"UserId\" = @__user_Id_0" (0723d8ff)
+2020-12-13T22:10:10.4946311+03:00 0HM4VJANDP1OE:00000002 [INF] Executed DbCommand ("39"ms) [Parameters=["@__userId_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a0.\"Name\"
+FROM \"AspNetUserRoles\" AS a
+INNER JOIN \"AspNetRoles\" AS a0 ON a.\"RoleId\" = a0.\"Id\"
+WHERE a.\"UserId\" = @__userId_0" (0723d8ff)
+2020-12-13T22:10:10.5340536+03:00 0HM4VJANDP1OE:00000002 [INF] Executed DbCommand ("38"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-13T22:10:10.5753310+03:00 0HM4VJANDP1OE:00000002 [INF] Executed DbCommand ("38"ms) [Parameters=["@__role_Id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"ClaimType\", a.\"ClaimValue\"
+FROM \"AspNetRoleClaims\" AS a
+WHERE a.\"RoleId\" = @__role_Id_0" (0723d8ff)
+2020-12-13T22:10:10.5793831+03:00 0HM4VJANDP1OE:00000002 [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-12-13T22:10:10.5819720+03:00 0HM4VJANDP1OE:00000002 [INF] Executing RedirectResult, redirecting to "/". (d98d540e)
+2020-12-13T22:10:10.5824365+03:00 0HM4VJANDP1OE:00000002 [INF] Executed action "SocialNetwork.Controllers.AccountController.Login (SocialNetwork)" in 621.7119ms (afa2e885)
+2020-12-13T22:10:10.5826419+03:00 0HM4VJANDP1OE:00000002 [INF] Executed endpoint '"SocialNetwork.Controllers.AccountController.Login (SocialNetwork)"' (99874f2b)
+2020-12-13T22:10:10.5835070+03:00 0HM4VJANDP1OE:00000002 [INF] Request finished in 629.9083ms 302  (791a596a)
+2020-12-13T22:10:10.5870103+03:00 0HM4VJANDP1OD:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-13T22:10:10.5886720+03:00 0HM4VJANDP1OD:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:10.7317632+03:00 0HM4VJANDP1OD:00000002 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:10.7321650+03:00 0HM4VJANDP1OD:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:10.8782051+03:00 0HM4VJANDP1OD:00000002 [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:10.8797773+03:00 0HM4VJANDP1OD:00000002 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-13T22:10:10.8799830+03:00 0HM4VJANDP1OD:00000002 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T22:10:10.8802432+03:00 0HM4VJANDP1OD:00000002 [INF] Executing RedirectResult, redirecting to "/User/UserPage". (d98d540e)
+2020-12-13T22:10:10.8803052+03:00 0HM4VJANDP1OD:00000002 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 0.291ms (afa2e885)
+2020-12-13T22:10:10.8803242+03:00 0HM4VJANDP1OD:00000002 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-13T22:10:10.8803932+03:00 0HM4VJANDP1OD:00000002 [INF] Request finished in 293.4449ms 302  (791a596a)
+2020-12-13T22:10:10.8834831+03:00 0HM4VJANDP1OC:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/UserPage   (ca22a1cb)
+2020-12-13T22:10:10.8840689+03:00 0HM4VJANDP1OC:00000004 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:11.0437583+03:00 0HM4VJANDP1OC:00000004 [INF] Executed DbCommand ("42"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:11.0445092+03:00 0HM4VJANDP1OC:00000004 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:11.2036518+03:00 0HM4VJANDP1OC:00000004 [INF] Executed DbCommand ("45"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:11.2040077+03:00 0HM4VJANDP1OC:00000004 [INF] Executing endpoint '"SocialNetwork.Controllers.UserController.UserPage (SocialNetwork)"' (500cc934)
+2020-12-13T22:10:11.2068903+03:00 0HM4VJANDP1OC:00000004 [INF] Route matched with "{action = \"UserPage\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] UserPage(System.String)" on controller "SocialNetwork.Controllers.UserController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T22:10:11.2071609+03:00 0HM4VJANDP1OC:00000004 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:11.3494783+03:00 0HM4VJANDP1OC:00000004 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:11.3983263+03:00 0HM4VJANDP1OC:00000004 [INF] Executed DbCommand ("40"ms) [Parameters=["@__p_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"Id\" = @__p_0
+LIMIT 1" (0723d8ff)
+2020-12-13T22:10:11.4001008+03:00 0HM4VJANDP1OC:00000004 [INF] Executing ViewResult, running view "UserPage". (c83d0e25)
+2020-12-13T22:10:11.4061609+03:00 0HM4VJANDP1OC:00000004 [INF] Executed ViewResult - view "UserPage" executed in 6.5311ms. (f66409e9)
+2020-12-13T22:10:11.4062269+03:00 0HM4VJANDP1OC:00000004 [INF] Executed action "SocialNetwork.Controllers.UserController.UserPage (SocialNetwork)" in 199.299ms (afa2e885)
+2020-12-13T22:10:11.4062550+03:00 0HM4VJANDP1OC:00000004 [INF] Executed endpoint '"SocialNetwork.Controllers.UserController.UserPage (SocialNetwork)"' (99874f2b)
+2020-12-13T22:10:11.4063772+03:00 0HM4VJANDP1OC:00000004 [INF] Request finished in 522.9142ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-13T22:10:11.4205871+03:00 0HM4VJANDP1OC:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/style.css   (ca22a1cb)
+2020-12-13T22:10:11.4205872+03:00 0HM4VJANDP1OE:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/font-awesome.css   (ca22a1cb)
+2020-12-13T22:10:11.4205872+03:00 0HM4VJANDP1OD:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/bootstrap.css   (ca22a1cb)
+2020-12-13T22:10:11.4234256+03:00 0HM4VJANDP1OE:00000003 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:11.4234256+03:00 0HM4VJANDP1OD:00000003 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:11.4234257+03:00 0HM4VJANDP1OC:00000005 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:11.5653777+03:00 0HM4VJANDP1OE:00000003 [INF] Executed DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:11.5669296+03:00 0HM4VJANDP1OE:00000003 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:11.6828601+03:00 0HM4VJANDP1OC:00000005 [INF] Executed DbCommand ("36"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:11.6831119+03:00 0HM4VJANDP1OC:00000005 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:11.6929683+03:00 0HM4VJANDP1OD:00000003 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:11.6931117+03:00 0HM4VJANDP1OD:00000003 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:11.7217151+03:00 0HM4VJANDP1OE:00000003 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:11.7229735+03:00 0HM4VJANDP1OE:00000003 [INF] Request finished in 302.4507ms 404  (791a596a)
+2020-12-13T22:10:11.8278695+03:00 0HM4VJANDP1OC:00000005 [INF] Executed DbCommand ("38"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:11.8280418+03:00 0HM4VJANDP1OC:00000005 [INF] Request finished in 407.5213ms 404  (791a596a)
+2020-12-13T22:10:11.8340062+03:00 0HM4VJANDP1OD:00000003 [INF] Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:11.8341138+03:00 0HM4VJANDP1OD:00000003 [INF] Request finished in 413.5961ms 404  (791a596a)
+2020-12-13T22:10:13.3903765+03:00 0HM4VJANDP1OE:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/Friends   (ca22a1cb)
+2020-12-13T22:10:13.3922696+03:00 0HM4VJANDP1OE:00000004 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:13.5423471+03:00 0HM4VJANDP1OE:00000004 [INF] Executed DbCommand ("38"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:13.5430898+03:00 0HM4VJANDP1OE:00000004 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:13.6982906+03:00 0HM4VJANDP1OE:00000004 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:13.6985954+03:00 0HM4VJANDP1OE:00000004 [INF] Executing endpoint '"SocialNetwork.Controllers.UserController.Friends (SocialNetwork)"' (500cc934)
+2020-12-13T22:10:13.6999347+03:00 0HM4VJANDP1OE:00000004 [INF] Route matched with "{action = \"Friends\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Friends()" on controller "SocialNetwork.Controllers.UserController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T22:10:13.7001926+03:00 0HM4VJANDP1OE:00000004 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:13.8353368+03:00 0HM4VJANDP1OE:00000004 [INF] Executed DbCommand ("38"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:13.8810308+03:00 0HM4VJANDP1OE:00000004 [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a" (0723d8ff)
+2020-12-13T22:10:13.9218694+03:00 0HM4VJANDP1OE:00000004 [INF] Executed DbCommand ("37"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT f.\"Id\", f.\"FriendId\", f.\"FriendName\", f.\"IdUser\"
+FROM \"Friend\" AS f" (0723d8ff)
+2020-12-13T22:10:13.9249077+03:00 0HM4VJANDP1OE:00000004 [INF] Executing ViewResult, running view "Friends". (c83d0e25)
+2020-12-13T22:10:13.9457719+03:00 0HM4VJANDP1OE:00000004 [INF] Executed ViewResult - view "Friends" executed in 21.2304ms. (f66409e9)
+2020-12-13T22:10:13.9458412+03:00 0HM4VJANDP1OE:00000004 [INF] Executed action "SocialNetwork.Controllers.UserController.Friends (SocialNetwork)" in 245.8636ms (afa2e885)
+2020-12-13T22:10:13.9458714+03:00 0HM4VJANDP1OE:00000004 [INF] Executed endpoint '"SocialNetwork.Controllers.UserController.Friends (SocialNetwork)"' (99874f2b)
+2020-12-13T22:10:13.9460108+03:00 0HM4VJANDP1OE:00000004 [INF] Request finished in 555.7807ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-13T22:10:13.9584173+03:00 0HM4VJANDP1OC:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/font-awesome.css   (ca22a1cb)
+2020-12-13T22:10:13.9584176+03:00 0HM4VJANDP1OE:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/style.css   (ca22a1cb)
+2020-12-13T22:10:13.9584173+03:00 0HM4VJANDP1OD:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/bootstrap.css   (ca22a1cb)
+2020-12-13T22:10:13.9594918+03:00 0HM4VJANDP1OE:00000005 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:13.9594917+03:00 0HM4VJANDP1OD:00000004 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:13.9594994+03:00 0HM4VJANDP1OC:00000006 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:14.0956833+03:00 0HM4VJANDP1OD:00000004 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Npgsql.PostgresException (0x80004005): 53300: too many connections for role "ivctkpdo"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnection.Open()
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlDatabaseCreator.Exists()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureCreated()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.EnsureCreated()
+   at SocialNetwork.ApplicationContext..ctor(DbContextOptions`1 options) in C:\Users\Arter\ASP\SocialNetwork\SocialNetwork\Context.cs:line 15
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.AspNetCore.Identity.SecurityStampValidator.ValidateAsync[TValidator](CookieValidatePrincipalContext context)
+   at Microsoft.AspNetCore.Identity.SecurityStampValidator.ValidatePrincipalAsync(CookieValidatePrincipalContext context)
+   at Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationEvents.ValidatePrincipal(CookieValidatePrincipalContext context)
+   at Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+  Exception data:
+    Severity: FATAL
+    SqlState: 53300
+    MessageText: too many connections for role "ivctkpdo"
+    File: miscinit.c
+    Line: 661
+    Routine: InitializeSessionUserId
+2020-12-13T22:10:14.0978429+03:00 0HM4VJANDP1OD:00000004 [INF] Request finished in 139.5078ms 500 text/plain (791a596a)
+2020-12-13T22:10:14.1054649+03:00 0HM4VJANDP1OC:00000006 [INF] Executed DbCommand ("32"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:14.1057194+03:00 0HM4VJANDP1OC:00000006 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:14.1130893+03:00 0HM4VJANDP1OE:00000005 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:14.1132094+03:00 0HM4VJANDP1OE:00000005 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:14.2423480+03:00 0HM4VJANDP1OC:00000006 [INF] Executed DbCommand ("38"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:14.2430120+03:00 0HM4VJANDP1OC:00000006 [INF] Request finished in 284.6019ms 404  (791a596a)
+2020-12-13T22:10:14.2498849+03:00 0HM4VJANDP1OE:00000005 [INF] Executed DbCommand ("32"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:14.2504129+03:00 0HM4VJANDP1OE:00000005 [INF] Request finished in 292.0269ms 404  (791a596a)
+2020-12-13T22:10:15.5100689+03:00 0HM4VJANDP1OD:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/AddFriend/96c0b117-b810-4f7f-8e3c-0c4254f334e0   (ca22a1cb)
+2020-12-13T22:10:15.5116030+03:00 0HM4VJANDP1OD:00000005 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:15.6591196+03:00 0HM4VJANDP1OD:00000005 [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:15.6599154+03:00 0HM4VJANDP1OD:00000005 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:15.8110486+03:00 0HM4VJANDP1OD:00000005 [INF] Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:15.8113681+03:00 0HM4VJANDP1OD:00000005 [INF] Executing endpoint '"SocialNetwork.Controllers.UserController.AddFriend (SocialNetwork)"' (500cc934)
+2020-12-13T22:10:15.8157933+03:00 0HM4VJANDP1OD:00000005 [INF] Route matched with "{action = \"AddFriend\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] AddFriend(System.String)" on controller "SocialNetwork.Controllers.UserController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T22:10:15.8163522+03:00 0HM4VJANDP1OD:00000005 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:15.9644575+03:00 0HM4VJANDP1OD:00000005 [INF] Executed DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:16.0033641+03:00 0HM4VJANDP1OD:00000005 [INF] Executed DbCommand ("37"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a" (0723d8ff)
+2020-12-13T22:10:16.0974657+03:00 0HM4VJANDP1OD:00000005 [INF] Executed DbCommand ("40"ms) [Parameters=["@p0='?', @p1='?', @p2='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"Friend\" (\"FriendId\", \"FriendName\", \"IdUser\")
+VALUES (@p0, @p1, @p2)
+RETURNING \"Id\";" (0723d8ff)
+2020-12-13T22:10:16.1519679+03:00 0HM4VJANDP1OD:00000005 [INF] Executing RedirectResult, redirecting to "/User/Friends". (d98d540e)
+2020-12-13T22:10:16.1520772+03:00 0HM4VJANDP1OD:00000005 [INF] Executed action "SocialNetwork.Controllers.UserController.AddFriend (SocialNetwork)" in 336.2126ms (afa2e885)
+2020-12-13T22:10:16.1520995+03:00 0HM4VJANDP1OD:00000005 [INF] Executed endpoint '"SocialNetwork.Controllers.UserController.AddFriend (SocialNetwork)"' (99874f2b)
+2020-12-13T22:10:16.1523238+03:00 0HM4VJANDP1OD:00000005 [INF] Request finished in 642.3586ms 302  (791a596a)
+2020-12-13T22:10:16.1558941+03:00 0HM4VJANDP1OC:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/Friends   (ca22a1cb)
+2020-12-13T22:10:16.1569572+03:00 0HM4VJANDP1OC:00000007 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:16.3161045+03:00 0HM4VJANDP1OC:00000007 [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:16.3164227+03:00 0HM4VJANDP1OC:00000007 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:16.4629705+03:00 0HM4VJANDP1OC:00000007 [INF] Executed DbCommand ("42"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:16.4631779+03:00 0HM4VJANDP1OC:00000007 [INF] Executing endpoint '"SocialNetwork.Controllers.UserController.Friends (SocialNetwork)"' (500cc934)
+2020-12-13T22:10:16.4633764+03:00 0HM4VJANDP1OC:00000007 [INF] Route matched with "{action = \"Friends\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Friends()" on controller "SocialNetwork.Controllers.UserController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T22:10:16.4635848+03:00 0HM4VJANDP1OC:00000007 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:16.6211130+03:00 0HM4VJANDP1OC:00000007 [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:16.6613419+03:00 0HM4VJANDP1OC:00000007 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a" (0723d8ff)
+2020-12-13T22:10:16.6992125+03:00 0HM4VJANDP1OC:00000007 [INF] Executed DbCommand ("37"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT f.\"Id\", f.\"FriendId\", f.\"FriendName\", f.\"IdUser\"
+FROM \"Friend\" AS f" (0723d8ff)
+2020-12-13T22:10:16.7003902+03:00 0HM4VJANDP1OC:00000007 [INF] Executing ViewResult, running view "Friends". (c83d0e25)
+2020-12-13T22:10:16.7095927+03:00 0HM4VJANDP1OC:00000007 [INF] Executed ViewResult - view "Friends" executed in 9.3131ms. (f66409e9)
+2020-12-13T22:10:16.7096505+03:00 0HM4VJANDP1OC:00000007 [INF] Executed action "SocialNetwork.Controllers.UserController.Friends (SocialNetwork)" in 246.251ms (afa2e885)
+2020-12-13T22:10:16.7096781+03:00 0HM4VJANDP1OC:00000007 [INF] Executed endpoint '"SocialNetwork.Controllers.UserController.Friends (SocialNetwork)"' (99874f2b)
+2020-12-13T22:10:16.7098183+03:00 0HM4VJANDP1OC:00000007 [INF] Request finished in 553.9558ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-13T22:10:16.7227395+03:00 0HM4VJANDP1OD:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/font-awesome.css   (ca22a1cb)
+2020-12-13T22:10:16.7227395+03:00 0HM4VJANDP1OC:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/bootstrap.css   (ca22a1cb)
+2020-12-13T22:10:16.7227402+03:00 0HM4VJANDP1OE:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/style.css   (ca22a1cb)
+2020-12-13T22:10:16.7245458+03:00 0HM4VJANDP1OC:00000008 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:16.7245431+03:00 0HM4VJANDP1OD:00000006 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:16.7245449+03:00 0HM4VJANDP1OE:00000006 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:16.8417430+03:00 0HM4VJANDP1OC:00000008 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Npgsql.PostgresException (0x80004005): 53300: too many connections for role "ivctkpdo"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnection.Open()
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlDatabaseCreator.Exists()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureCreated()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.EnsureCreated()
+   at SocialNetwork.ApplicationContext..ctor(DbContextOptions`1 options) in C:\Users\Arter\ASP\SocialNetwork\SocialNetwork\Context.cs:line 15
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.AspNetCore.Identity.SecurityStampValidator.ValidateAsync[TValidator](CookieValidatePrincipalContext context)
+   at Microsoft.AspNetCore.Identity.SecurityStampValidator.ValidatePrincipalAsync(CookieValidatePrincipalContext context)
+   at Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationEvents.ValidatePrincipal(CookieValidatePrincipalContext context)
+   at Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+  Exception data:
+    Severity: FATAL
+    SqlState: 53300
+    MessageText: too many connections for role "ivctkpdo"
+    File: miscinit.c
+    Line: 661
+    Routine: InitializeSessionUserId
+2020-12-13T22:10:16.8429646+03:00 0HM4VJANDP1OC:00000008 [INF] Request finished in 120.2885ms 500 text/plain (791a596a)
+2020-12-13T22:10:16.8629450+03:00 0HM4VJANDP1OD:00000006 [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:16.8632585+03:00 0HM4VJANDP1OD:00000006 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:16.8672475+03:00 0HM4VJANDP1OE:00000006 [INF] Executed DbCommand ("33"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:16.8673693+03:00 0HM4VJANDP1OE:00000006 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:17.0145204+03:00 0HM4VJANDP1OE:00000006 [INF] Executed DbCommand ("37"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:17.0147667+03:00 0HM4VJANDP1OE:00000006 [INF] Request finished in 292.091ms 404  (791a596a)
+2020-12-13T22:10:17.0184373+03:00 0HM4VJANDP1OD:00000006 [INF] Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:17.0185138+03:00 0HM4VJANDP1OD:00000006 [INF] Request finished in 295.8576ms 404  (791a596a)
+2020-12-13T22:10:18.4049163+03:00 0HM4VJANDP1OC:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/DeleteFriend/96c0b117-b810-4f7f-8e3c-0c4254f334e0   (ca22a1cb)
+2020-12-13T22:10:18.4061440+03:00 0HM4VJANDP1OC:00000009 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:18.5545720+03:00 0HM4VJANDP1OC:00000009 [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:18.5551711+03:00 0HM4VJANDP1OC:00000009 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:18.7055775+03:00 0HM4VJANDP1OC:00000009 [INF] Executed DbCommand ("47"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:18.7058875+03:00 0HM4VJANDP1OC:00000009 [INF] Executing endpoint '"SocialNetwork.Controllers.UserController.DeleteFriend (SocialNetwork)"' (500cc934)
+2020-12-13T22:10:18.7093118+03:00 0HM4VJANDP1OC:00000009 [INF] Route matched with "{action = \"DeleteFriend\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteFriend(System.String)" on controller "SocialNetwork.Controllers.UserController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T22:10:18.7097931+03:00 0HM4VJANDP1OC:00000009 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:18.8600806+03:00 0HM4VJANDP1OC:00000009 [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:18.9013723+03:00 0HM4VJANDP1OC:00000009 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT f.\"Id\", f.\"FriendId\", f.\"FriendName\", f.\"IdUser\"
+FROM \"Friend\" AS f" (0723d8ff)
+2020-12-13T22:10:18.9443687+03:00 0HM4VJANDP1OC:00000009 [INF] Executed DbCommand ("40"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM \"Friend\"
+WHERE \"Id\" = @p0;" (0723d8ff)
+2020-12-13T22:10:18.9882445+03:00 0HM4VJANDP1OC:00000009 [INF] Executing RedirectResult, redirecting to "/User/Friends". (d98d540e)
+2020-12-13T22:10:18.9883413+03:00 0HM4VJANDP1OC:00000009 [INF] Executed action "SocialNetwork.Controllers.UserController.DeleteFriend (SocialNetwork)" in 278.979ms (afa2e885)
+2020-12-13T22:10:18.9883712+03:00 0HM4VJANDP1OC:00000009 [INF] Executed endpoint '"SocialNetwork.Controllers.UserController.DeleteFriend (SocialNetwork)"' (99874f2b)
+2020-12-13T22:10:18.9885772+03:00 0HM4VJANDP1OC:00000009 [INF] Request finished in 583.7191ms 302  (791a596a)
+2020-12-13T22:10:18.9916326+03:00 0HM4VJANDP1OE:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/Friends   (ca22a1cb)
+2020-12-13T22:10:18.9923917+03:00 0HM4VJANDP1OE:00000007 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:19.1369796+03:00 0HM4VJANDP1OE:00000007 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:19.1373017+03:00 0HM4VJANDP1OE:00000007 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:19.2829647+03:00 0HM4VJANDP1OE:00000007 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:19.2832073+03:00 0HM4VJANDP1OE:00000007 [INF] Executing endpoint '"SocialNetwork.Controllers.UserController.Friends (SocialNetwork)"' (500cc934)
+2020-12-13T22:10:19.2834566+03:00 0HM4VJANDP1OE:00000007 [INF] Route matched with "{action = \"Friends\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Friends()" on controller "SocialNetwork.Controllers.UserController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T22:10:19.2838872+03:00 0HM4VJANDP1OE:00000007 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:19.4225521+03:00 0HM4VJANDP1OE:00000007 [INF] Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:19.4627407+03:00 0HM4VJANDP1OE:00000007 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a" (0723d8ff)
+2020-12-13T22:10:19.5007698+03:00 0HM4VJANDP1OE:00000007 [INF] Executed DbCommand ("37"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT f.\"Id\", f.\"FriendId\", f.\"FriendName\", f.\"IdUser\"
+FROM \"Friend\" AS f" (0723d8ff)
+2020-12-13T22:10:19.5011295+03:00 0HM4VJANDP1OE:00000007 [INF] Executing ViewResult, running view "Friends". (c83d0e25)
+2020-12-13T22:10:19.5022980+03:00 0HM4VJANDP1OE:00000007 [INF] Executed ViewResult - view "Friends" executed in 1.2536ms. (f66409e9)
+2020-12-13T22:10:19.5023581+03:00 0HM4VJANDP1OE:00000007 [INF] Executed action "SocialNetwork.Controllers.UserController.Friends (SocialNetwork)" in 218.861ms (afa2e885)
+2020-12-13T22:10:19.5023903+03:00 0HM4VJANDP1OE:00000007 [INF] Executed endpoint '"SocialNetwork.Controllers.UserController.Friends (SocialNetwork)"' (99874f2b)
+2020-12-13T22:10:19.5025951+03:00 0HM4VJANDP1OE:00000007 [INF] Request finished in 510.9946ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-13T22:10:19.5142631+03:00 0HM4VJANDP1OE:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/font-awesome.css   (ca22a1cb)
+2020-12-13T22:10:19.5142665+03:00 0HM4VJANDP1OD:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/bootstrap.css   (ca22a1cb)
+2020-12-13T22:10:19.5143053+03:00 0HM4VJANDP1OC:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/style.css   (ca22a1cb)
+2020-12-13T22:10:19.5158656+03:00 0HM4VJANDP1OE:00000008 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:19.5158656+03:00 0HM4VJANDP1OD:00000007 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:19.5159501+03:00 0HM4VJANDP1OC:0000000A [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:19.6209356+03:00 0HM4VJANDP1OE:00000008 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Npgsql.PostgresException (0x80004005): 53300: too many connections for role "ivctkpdo"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnection.Open()
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlDatabaseCreator.Exists()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureCreated()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.EnsureCreated()
+   at SocialNetwork.ApplicationContext..ctor(DbContextOptions`1 options) in C:\Users\Arter\ASP\SocialNetwork\SocialNetwork\Context.cs:line 15
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.AspNetCore.Identity.SecurityStampValidator.ValidateAsync[TValidator](CookieValidatePrincipalContext context)
+   at Microsoft.AspNetCore.Identity.SecurityStampValidator.ValidatePrincipalAsync(CookieValidatePrincipalContext context)
+   at Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationEvents.ValidatePrincipal(CookieValidatePrincipalContext context)
+   at Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+  Exception data:
+    Severity: FATAL
+    SqlState: 53300
+    MessageText: too many connections for role "ivctkpdo"
+    File: miscinit.c
+    Line: 661
+    Routine: InitializeSessionUserId
+2020-12-13T22:10:19.6224678+03:00 0HM4VJANDP1OE:00000008 [INF] Request finished in 108.2552ms 500 text/plain (791a596a)
+2020-12-13T22:10:19.6493908+03:00 0HM4VJANDP1OC:0000000A [INF] Executed DbCommand ("35"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:19.6498039+03:00 0HM4VJANDP1OC:0000000A [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:19.6541654+03:00 0HM4VJANDP1OD:00000007 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:19.6543755+03:00 0HM4VJANDP1OD:00000007 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:19.7959699+03:00 0HM4VJANDP1OC:0000000A [INF] Executed DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:19.7963910+03:00 0HM4VJANDP1OC:0000000A [INF] Request finished in 282.1543ms 404  (791a596a)
+2020-12-13T22:10:19.8024771+03:00 0HM4VJANDP1OD:00000007 [INF] Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:19.8026005+03:00 0HM4VJANDP1OD:00000007 [INF] Request finished in 288.4086ms 404  (791a596a)
+2020-12-13T22:10:20.7104371+03:00 0HM4VJANDP1OE:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/AddFriend/96c0b117-b810-4f7f-8e3c-0c4254f334e0   (ca22a1cb)
+2020-12-13T22:10:20.7112131+03:00 0HM4VJANDP1OE:00000009 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:20.8897462+03:00 0HM4VJANDP1OE:00000009 [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:20.8901468+03:00 0HM4VJANDP1OE:00000009 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:21.0356952+03:00 0HM4VJANDP1OE:00000009 [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:21.0359086+03:00 0HM4VJANDP1OE:00000009 [INF] Executing endpoint '"SocialNetwork.Controllers.UserController.AddFriend (SocialNetwork)"' (500cc934)
+2020-12-13T22:10:21.0361371+03:00 0HM4VJANDP1OE:00000009 [INF] Route matched with "{action = \"AddFriend\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] AddFriend(System.String)" on controller "SocialNetwork.Controllers.UserController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T22:10:21.0364721+03:00 0HM4VJANDP1OE:00000009 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:21.2033707+03:00 0HM4VJANDP1OE:00000009 [INF] Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:21.2429112+03:00 0HM4VJANDP1OE:00000009 [INF] Executed DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a" (0723d8ff)
+2020-12-13T22:10:21.2819669+03:00 0HM4VJANDP1OE:00000009 [INF] Executed DbCommand ("37"ms) [Parameters=["@p0='?', @p1='?', @p2='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"Friend\" (\"FriendId\", \"FriendName\", \"IdUser\")
+VALUES (@p0, @p1, @p2)
+RETURNING \"Id\";" (0723d8ff)
+2020-12-13T22:10:21.3219501+03:00 0HM4VJANDP1OE:00000009 [INF] Executing RedirectResult, redirecting to "/User/Friends". (d98d540e)
+2020-12-13T22:10:21.3220501+03:00 0HM4VJANDP1OE:00000009 [INF] Executed action "SocialNetwork.Controllers.UserController.AddFriend (SocialNetwork)" in 285.8699ms (afa2e885)
+2020-12-13T22:10:21.3220755+03:00 0HM4VJANDP1OE:00000009 [INF] Executed endpoint '"SocialNetwork.Controllers.UserController.AddFriend (SocialNetwork)"' (99874f2b)
+2020-12-13T22:10:21.3223109+03:00 0HM4VJANDP1OE:00000009 [INF] Request finished in 611.9018ms 302  (791a596a)
+2020-12-13T22:10:21.3250843+03:00 0HM4VJANDP1OC:0000000B [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/Friends   (ca22a1cb)
+2020-12-13T22:10:21.3258383+03:00 0HM4VJANDP1OC:0000000B [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:21.4835282+03:00 0HM4VJANDP1OC:0000000B [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:21.4838237+03:00 0HM4VJANDP1OC:0000000B [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:21.6329487+03:00 0HM4VJANDP1OC:0000000B [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:21.6331307+03:00 0HM4VJANDP1OC:0000000B [INF] Executing endpoint '"SocialNetwork.Controllers.UserController.Friends (SocialNetwork)"' (500cc934)
+2020-12-13T22:10:21.6333537+03:00 0HM4VJANDP1OC:0000000B [INF] Route matched with "{action = \"Friends\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Friends()" on controller "SocialNetwork.Controllers.UserController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T22:10:21.6335667+03:00 0HM4VJANDP1OC:0000000B [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:21.7682953+03:00 0HM4VJANDP1OC:0000000B [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:21.8076812+03:00 0HM4VJANDP1OC:0000000B [INF] Executed DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a" (0723d8ff)
+2020-12-13T22:10:21.8469461+03:00 0HM4VJANDP1OC:0000000B [INF] Executed DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT f.\"Id\", f.\"FriendId\", f.\"FriendName\", f.\"IdUser\"
+FROM \"Friend\" AS f" (0723d8ff)
+2020-12-13T22:10:21.8473157+03:00 0HM4VJANDP1OC:0000000B [INF] Executing ViewResult, running view "Friends". (c83d0e25)
+2020-12-13T22:10:21.8481592+03:00 0HM4VJANDP1OC:0000000B [INF] Executed ViewResult - view "Friends" executed in 0.9219ms. (f66409e9)
+2020-12-13T22:10:21.8481906+03:00 0HM4VJANDP1OC:0000000B [INF] Executed action "SocialNetwork.Controllers.UserController.Friends (SocialNetwork)" in 214.8133ms (afa2e885)
+2020-12-13T22:10:21.8482111+03:00 0HM4VJANDP1OC:0000000B [INF] Executed endpoint '"SocialNetwork.Controllers.UserController.Friends (SocialNetwork)"' (99874f2b)
+2020-12-13T22:10:21.8482654+03:00 0HM4VJANDP1OC:0000000B [INF] Request finished in 523.2077ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-13T22:10:21.8590897+03:00 0HM4VJANDP1OE:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/style.css   (ca22a1cb)
+2020-12-13T22:10:21.8590896+03:00 0HM4VJANDP1OD:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/bootstrap.css   (ca22a1cb)
+2020-12-13T22:10:21.8591010+03:00 0HM4VJANDP1OC:0000000C [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/font-awesome.css   (ca22a1cb)
+2020-12-13T22:10:21.8596317+03:00 0HM4VJANDP1OD:00000008 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:21.8596347+03:00 0HM4VJANDP1OE:0000000A [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:21.8596517+03:00 0HM4VJANDP1OC:0000000C [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:21.9702599+03:00 0HM4VJANDP1OE:0000000A [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Npgsql.PostgresException (0x80004005): 53300: too many connections for role "ivctkpdo"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnection.Open()
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlDatabaseCreator.Exists()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureCreated()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.EnsureCreated()
+   at SocialNetwork.ApplicationContext..ctor(DbContextOptions`1 options) in C:\Users\Arter\ASP\SocialNetwork\SocialNetwork\Context.cs:line 15
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.AspNetCore.Identity.SecurityStampValidator.ValidateAsync[TValidator](CookieValidatePrincipalContext context)
+   at Microsoft.AspNetCore.Identity.SecurityStampValidator.ValidatePrincipalAsync(CookieValidatePrincipalContext context)
+   at Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationEvents.ValidatePrincipal(CookieValidatePrincipalContext context)
+   at Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+  Exception data:
+    Severity: FATAL
+    SqlState: 53300
+    MessageText: too many connections for role "ivctkpdo"
+    File: miscinit.c
+    Line: 661
+    Routine: InitializeSessionUserId
+2020-12-13T22:10:21.9713364+03:00 0HM4VJANDP1OE:0000000A [INF] Request finished in 112.2727ms 500 text/plain (791a596a)
+2020-12-13T22:10:21.9963931+03:00 0HM4VJANDP1OC:0000000C [INF] Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:21.9966249+03:00 0HM4VJANDP1OC:0000000C [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:21.9996391+03:00 0HM4VJANDP1OD:00000008 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:21.9997494+03:00 0HM4VJANDP1OD:00000008 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:22.1382879+03:00 0HM4VJANDP1OC:0000000C [INF] Executed DbCommand ("38"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:22.1384289+03:00 0HM4VJANDP1OC:0000000C [INF] Request finished in 279.3518ms 404  (791a596a)
+2020-12-13T22:10:22.1437261+03:00 0HM4VJANDP1OD:00000008 [INF] Executed DbCommand ("33"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:22.1438431+03:00 0HM4VJANDP1OD:00000008 [INF] Request finished in 284.7856ms 404  (791a596a)
+2020-12-13T22:10:27.6042221+03:00 0HM4VJANDP1OE:0000000B [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/UserPage   (ca22a1cb)
+2020-12-13T22:10:27.6048972+03:00 0HM4VJANDP1OE:0000000B [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:27.7618349+03:00 0HM4VJANDP1OE:0000000B [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:27.7622810+03:00 0HM4VJANDP1OE:0000000B [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:27.9011090+03:00 0HM4VJANDP1OE:0000000B [INF] Executed DbCommand ("37"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:27.9013224+03:00 0HM4VJANDP1OE:0000000B [INF] Executing endpoint '"SocialNetwork.Controllers.UserController.UserPage (SocialNetwork)"' (500cc934)
+2020-12-13T22:10:27.9015075+03:00 0HM4VJANDP1OE:0000000B [INF] Route matched with "{action = \"UserPage\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] UserPage(System.String)" on controller "SocialNetwork.Controllers.UserController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T22:10:27.9017854+03:00 0HM4VJANDP1OE:0000000B [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:10:28.0480803+03:00 0HM4VJANDP1OE:0000000B [INF] Executed DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:10:28.0885316+03:00 0HM4VJANDP1OE:0000000B [INF] Executed DbCommand ("39"ms) [Parameters=["@__p_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"Id\" = @__p_0
+LIMIT 1" (0723d8ff)
+2020-12-13T22:10:28.0891176+03:00 0HM4VJANDP1OE:0000000B [INF] Executing ViewResult, running view "UserPage". (c83d0e25)
+2020-12-13T22:10:28.0903972+03:00 0HM4VJANDP1OE:0000000B [INF] Executed ViewResult - view "UserPage" executed in 1.357ms. (f66409e9)
+2020-12-13T22:10:28.0904545+03:00 0HM4VJANDP1OE:0000000B [INF] Executed action "SocialNetwork.Controllers.UserController.UserPage (SocialNetwork)" in 188.9209ms (afa2e885)
+2020-12-13T22:10:28.0904828+03:00 0HM4VJANDP1OE:0000000B [INF] Executed endpoint '"SocialNetwork.Controllers.UserController.UserPage (SocialNetwork)"' (99874f2b)
+2020-12-13T22:10:28.0906037+03:00 0HM4VJANDP1OE:0000000B [INF] Request finished in 486.4203ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-13T22:50:22.4930295+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:50:23.3344622+03:00  [INF] Executed DbCommand ("45"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:50:23.3494547+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-13T22:50:23.3514937+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:50:23.5039171+03:00  [INF] Executed DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:50:23.6606309+03:00  [INF] Executed DbCommand ("39"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-13T22:50:23.7248971+03:00  [INF] Executed DbCommand ("36"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-13T22:50:23.7697813+03:00  [INF] Executed DbCommand ("37"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-13T22:50:23.8642149+03:00  [INF] Now listening on: "http://127.0.0.1:44631" (d826f4b8)
+2020-12-13T22:50:23.8651444+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-13T22:50:23.8651687+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-13T22:50:23.8651823+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-13T22:50:24.0250808+03:00 0HM4VK1ADJIR6:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-13T22:50:24.0682303+03:00 0HM4VK1ADJIR6:00000001 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:50:24.2153621+03:00 0HM4VK1ADJIR6:00000001 [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:50:24.2158494+03:00 0HM4VK1ADJIR6:00000001 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:50:24.3661708+03:00 0HM4VK1ADJIR6:00000001 [INF] Executed DbCommand ("36"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:50:24.4170192+03:00 0HM4VK1ADJIR6:00000001 [INF] Executed DbCommand ("38"ms) [Parameters=["@__p_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"Id\" = @__p_0
+LIMIT 1" (0723d8ff)
+2020-12-13T22:50:24.4780553+03:00 0HM4VK1ADJIR6:00000001 [INF] Executed DbCommand ("37"ms) [Parameters=["@__user_Id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ClaimType\", a.\"ClaimValue\", a.\"UserId\"
+FROM \"AspNetUserClaims\" AS a
+WHERE a.\"UserId\" = @__user_Id_0" (0723d8ff)
+2020-12-13T22:50:24.5321207+03:00 0HM4VK1ADJIR6:00000001 [INF] Executed DbCommand ("36"ms) [Parameters=["@__userId_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a0.\"Name\"
+FROM \"AspNetUserRoles\" AS a
+INNER JOIN \"AspNetRoles\" AS a0 ON a.\"RoleId\" = a0.\"Id\"
+WHERE a.\"UserId\" = @__userId_0" (0723d8ff)
+2020-12-13T22:50:24.5685371+03:00 0HM4VK1ADJIR6:00000001 [INF] Executed DbCommand ("35"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-13T22:50:24.6079826+03:00 0HM4VK1ADJIR6:00000001 [INF] Executed DbCommand ("36"ms) [Parameters=["@__role_Id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"ClaimType\", a.\"ClaimValue\"
+FROM \"AspNetRoleClaims\" AS a
+WHERE a.\"RoleId\" = @__role_Id_0" (0723d8ff)
+2020-12-13T22:50:24.6113714+03:00 0HM4VK1ADJIR6:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-13T22:50:24.6198500+03:00 0HM4VK1ADJIR6:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T22:50:24.6282731+03:00 0HM4VK1ADJIR6:00000001 [INF] Executing RedirectResult, redirecting to "/User/UserPage". (d98d540e)
+2020-12-13T22:50:24.6314634+03:00 0HM4VK1ADJIR6:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 8.5945ms (afa2e885)
+2020-12-13T22:50:24.6317713+03:00 0HM4VK1ADJIR6:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-13T22:50:24.6364643+03:00 0HM4VK1ADJIR6:00000001 [INF] Request finished in 613.1119ms 302  (791a596a)
+2020-12-13T22:50:24.6417588+03:00 0HM4VK1ADJIR6:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/UserPage   (ca22a1cb)
+2020-12-13T22:50:24.6432383+03:00 0HM4VK1ADJIR6:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:50:24.7955003+03:00 0HM4VK1ADJIR6:00000002 [INF] Executed DbCommand ("38"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:50:24.7962400+03:00 0HM4VK1ADJIR6:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:50:24.9329960+03:00 0HM4VK1ADJIR6:00000002 [INF] Executed DbCommand ("37"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:50:24.9334739+03:00 0HM4VK1ADJIR6:00000002 [INF] Executing endpoint '"SocialNetwork.Controllers.UserController.UserPage (SocialNetwork)"' (500cc934)
+2020-12-13T22:50:24.9411788+03:00 0HM4VK1ADJIR6:00000002 [INF] Route matched with "{action = \"UserPage\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] UserPage(System.String)" on controller "SocialNetwork.Controllers.UserController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T22:50:24.9417005+03:00 0HM4VK1ADJIR6:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:50:25.0952109+03:00 0HM4VK1ADJIR6:00000002 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:50:25.1392723+03:00 0HM4VK1ADJIR6:00000002 [INF] Executed DbCommand ("38"ms) [Parameters=["@__p_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"Id\" = @__p_0
+LIMIT 1" (0723d8ff)
+2020-12-13T22:50:25.1481559+03:00 0HM4VK1ADJIR6:00000002 [INF] Executing ViewResult, running view "UserPage". (c83d0e25)
+2020-12-13T22:50:25.1687515+03:00 0HM4VK1ADJIR6:00000002 [INF] Executed ViewResult - view "UserPage" executed in 22.4641ms. (f66409e9)
+2020-12-13T22:50:25.1691980+03:00 0HM4VK1ADJIR6:00000002 [INF] Executed action "SocialNetwork.Controllers.UserController.UserPage (SocialNetwork)" in 227.9564ms (afa2e885)
+2020-12-13T22:50:25.1694234+03:00 0HM4VK1ADJIR6:00000002 [INF] Executed endpoint '"SocialNetwork.Controllers.UserController.UserPage (SocialNetwork)"' (99874f2b)
+2020-12-13T22:50:25.1706481+03:00 0HM4VK1ADJIR6:00000002 [INF] Request finished in 528.8983ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-13T22:50:25.1855970+03:00 0HM4VK1ADJIR6:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/bootstrap.css   (ca22a1cb)
+2020-12-13T22:50:25.1861890+03:00 0HM4VK1ADJIR7:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/font-awesome.css   (ca22a1cb)
+2020-12-13T22:50:25.1863251+03:00 0HM4VK1ADJIR8:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/style.css   (ca22a1cb)
+2020-12-13T22:50:25.1920989+03:00 0HM4VK1ADJIR7:00000001 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:50:25.1920961+03:00 0HM4VK1ADJIR6:00000003 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:50:25.1920931+03:00 0HM4VK1ADJIR8:00000001 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:50:25.3338089+03:00 0HM4VK1ADJIR8:00000001 [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:50:25.3374276+03:00 0HM4VK1ADJIR8:00000001 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:50:25.4589943+03:00 0HM4VK1ADJIR7:00000001 [INF] Executed DbCommand ("48"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:50:25.4593312+03:00 0HM4VK1ADJIR7:00000001 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:50:25.4607808+03:00 0HM4VK1ADJIR6:00000003 [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:50:25.4609774+03:00 0HM4VK1ADJIR6:00000003 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T22:50:25.4764653+03:00 0HM4VK1ADJIR8:00000001 [INF] Executed DbCommand ("37"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:50:25.4777794+03:00 0HM4VK1ADJIR8:00000001 [INF] Request finished in 291.4456ms 404  (791a596a)
+2020-12-13T22:50:25.6071685+03:00 0HM4VK1ADJIR6:00000003 [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:50:25.6074341+03:00 0HM4VK1ADJIR6:00000003 [INF] Request finished in 421.9186ms 404  (791a596a)
+2020-12-13T22:50:25.6112281+03:00 0HM4VK1ADJIR7:00000001 [INF] Executed DbCommand ("37"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T22:50:25.6114032+03:00 0HM4VK1ADJIR7:00000001 [INF] Request finished in 425.2376ms 404  (791a596a)
+2020-12-13T23:15:39.9172162+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T23:15:44.1119229+03:00  [INF] Executed DbCommand ("51"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T23:15:44.1273621+03:00  [INF] User profile is available. Using '"C:\Users\Arter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-12-13T23:15:44.1294605+03:00  [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T23:15:44.3034909+03:00  [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T23:15:44.4662464+03:00  [INF] Executed DbCommand ("45"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-13T23:15:44.5350510+03:00  [INF] Executed DbCommand ("41"ms) [Parameters=["@__normalizedName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2020-12-13T23:15:44.5902066+03:00  [INF] Executed DbCommand ("47"ms) [Parameters=["@__normalizedEmail_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2020-12-13T23:15:44.6800670+03:00  [INF] Now listening on: "http://127.0.0.1:7088" (d826f4b8)
+2020-12-13T23:15:44.6809763+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-13T23:15:44.6810025+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-13T23:15:44.6810166+03:00  [INF] Content root path: "C:\Users\Arter\ASP\SocialNetwork\SocialNetwork" (b5d60022)
+2020-12-13T23:15:44.7181420+03:00 0HM4VKFFK2DGC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/   (ca22a1cb)
+2020-12-13T23:15:44.7607046+03:00 0HM4VKFFK2DGC:00000001 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T23:15:44.9147079+03:00 0HM4VKFFK2DGC:00000001 [INF] Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T23:15:44.9152264+03:00 0HM4VKFFK2DGC:00000001 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T23:15:45.0831475+03:00 0HM4VKFFK2DGC:00000001 [INF] Executed DbCommand ("45"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T23:15:45.0863179+03:00 0HM4VKFFK2DGC:00000001 [INF] Executing endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (500cc934)
+2020-12-13T23:15:45.0953996+03:00 0HM4VKFFK2DGC:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "SocialNetwork.Controllers.HomeController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T23:15:45.1047952+03:00 0HM4VKFFK2DGC:00000001 [INF] Executing RedirectResult, redirecting to "/User/UserPage". (d98d540e)
+2020-12-13T23:15:45.1079654+03:00 0HM4VKFFK2DGC:00000001 [INF] Executed action "SocialNetwork.Controllers.HomeController.Index (SocialNetwork)" in 9.5104ms (afa2e885)
+2020-12-13T23:15:45.1082728+03:00 0HM4VKFFK2DGC:00000001 [INF] Executed endpoint '"SocialNetwork.Controllers.HomeController.Index (SocialNetwork)"' (99874f2b)
+2020-12-13T23:15:45.1108971+03:00 0HM4VKFFK2DGC:00000001 [INF] Request finished in 394.2101ms 302  (791a596a)
+2020-12-13T23:15:45.1165180+03:00 0HM4VKFFK2DGC:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/UserPage   (ca22a1cb)
+2020-12-13T23:15:45.1184403+03:00 0HM4VKFFK2DGC:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T23:15:45.2665233+03:00 0HM4VKFFK2DGC:00000002 [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T23:15:45.2673480+03:00 0HM4VKFFK2DGC:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T23:15:45.4221306+03:00 0HM4VKFFK2DGC:00000002 [INF] Executed DbCommand ("43"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T23:15:45.4228808+03:00 0HM4VKFFK2DGC:00000002 [INF] Executing endpoint '"SocialNetwork.Controllers.UserController.UserPage (SocialNetwork)"' (500cc934)
+2020-12-13T23:15:45.4305559+03:00 0HM4VKFFK2DGC:00000002 [INF] Route matched with "{action = \"UserPage\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] UserPage(System.String)" on controller "SocialNetwork.Controllers.UserController" ("SocialNetwork"). (122b2fdf)
+2020-12-13T23:15:45.4312036+03:00 0HM4VKFFK2DGC:00000002 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T23:15:45.5845548+03:00 0HM4VKFFK2DGC:00000002 [INF] Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T23:15:45.6424369+03:00 0HM4VKFFK2DGC:00000002 [INF] Executed DbCommand ("43"ms) [Parameters=["@__p_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"BirthDay\", a.\"ConcurrencyStamp\", a.\"Country\", a.\"Email\", a.\"EmailConfirmed\", a.\"Gender\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"Name\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"SecurityStamp\", a.\"Surname\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"Id\" = @__p_0
+LIMIT 1" (0723d8ff)
+2020-12-13T23:15:45.6515398+03:00 0HM4VKFFK2DGC:00000002 [INF] Executing ViewResult, running view "UserPage". (c83d0e25)
+2020-12-13T23:15:45.6713216+03:00 0HM4VKFFK2DGC:00000002 [INF] Executed ViewResult - view "UserPage" executed in 21.5885ms. (f66409e9)
+2020-12-13T23:15:45.6717760+03:00 0HM4VKFFK2DGC:00000002 [INF] Executed action "SocialNetwork.Controllers.UserController.UserPage (SocialNetwork)" in 241.114ms (afa2e885)
+2020-12-13T23:15:45.6720078+03:00 0HM4VKFFK2DGC:00000002 [INF] Executed endpoint '"SocialNetwork.Controllers.UserController.UserPage (SocialNetwork)"' (99874f2b)
+2020-12-13T23:15:45.6739514+03:00 0HM4VKFFK2DGC:00000002 [INF] Request finished in 557.462ms 200 text/html; charset=utf-8 (791a596a)
+2020-12-13T23:15:45.6891955+03:00 0HM4VKFFK2DGC:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/bootstrap.css   (ca22a1cb)
+2020-12-13T23:15:45.6950417+03:00 0HM4VKFFK2DGD:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/font-awesome.css   (ca22a1cb)
+2020-12-13T23:15:45.6951928+03:00 0HM4VKFFK2DGE:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/User/css/style.css   (ca22a1cb)
+2020-12-13T23:15:45.6953531+03:00 0HM4VKFFK2DGC:00000003 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T23:15:45.6956765+03:00 0HM4VKFFK2DGE:00000001 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T23:15:45.6957761+03:00 0HM4VKFFK2DGD:00000001 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T23:15:45.8521514+03:00 0HM4VKFFK2DGC:00000003 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T23:15:45.8555413+03:00 0HM4VKFFK2DGC:00000003 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T23:15:45.9619411+03:00 0HM4VKFFK2DGE:00000001 [INF] Executed DbCommand ("37"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T23:15:45.9622346+03:00 0HM4VKFFK2DGE:00000001 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T23:15:45.9738002+03:00 0HM4VKFFK2DGD:00000001 [INF] Executed DbCommand ("42"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T23:15:45.9740893+03:00 0HM4VKFFK2DGD:00000001 [INF] Entity Framework Core "3.1.4" initialized '"ApplicationContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "None" (9958f5bb)
+2020-12-13T23:15:45.9971308+03:00 0HM4VKFFK2DGC:00000003 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T23:15:45.9984977+03:00 0HM4VKFFK2DGC:00000003 [INF] Request finished in 309.3731ms 404  (791a596a)
+2020-12-13T23:15:46.1190141+03:00 0HM4VKFFK2DGE:00000001 [INF] Executed DbCommand ("47"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T23:15:46.1190105+03:00 0HM4VKFFK2DGD:00000001 [INF] Executed DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')" (0723d8ff)
+2020-12-13T23:15:46.1193706+03:00 0HM4VKFFK2DGD:00000001 [INF] Request finished in 424.3746ms 404  (791a596a)
+2020-12-13T23:15:46.1193762+03:00 0HM4VKFFK2DGE:00000001 [INF] Request finished in 424.193ms 404  (791a596a)
